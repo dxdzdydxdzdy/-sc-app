@@ -1,0 +1,19 @@
+.button {
+	color: #353535;
+	height: 49px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	background-color: #febd6d;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 12px 48px 13px 48px;
+	box-shadow: 0px 2px 0px #d4974b;
+	transition: all 0.1s;
+}
+
+.button:active {
+	box-shadow: 0px 0px 0px #d4974b;
+	position: relative;
+}
