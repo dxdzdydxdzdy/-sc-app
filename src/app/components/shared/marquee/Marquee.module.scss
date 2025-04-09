@@ -1,5 +1,4 @@
 .marquee {
-	width: 99dvw;
 	height: 61px;
 	display: flex;
 	flex-direction: row;
@@ -10,13 +9,13 @@
 
 	position: absolute;
 	left: 0;
+	right: 0;
 }
 
 .container {
 	display: flex;
 	flex-direction: row;
 	column-gap: 49px;
-
 	animation: scroll 20s linear infinite;
 }
 
@@ -35,7 +34,7 @@
 
 	@keyframes scroll {
 		0% {
-			transform: translateX(-50%);
+			transform: translateX(-30%);
 		}
 		100% {
 			transform: translateX(0);
