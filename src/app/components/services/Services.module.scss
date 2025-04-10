@@ -1,0 +1,63 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 42px;
+
+	.card {
+		position: relative;
+
+		width: 280px;
+		height: 337px;
+
+		border-radius: 10px;
+		background-color: #febd6d;
+
+		padding: 24px 18px 0 18px;
+
+		transition: all 0.3s ease-in-out;
+
+		h3 {
+			font-weight: 700;
+			font-size: 25px;
+			color: #353535;
+			line-height: 32px;
+			margin-bottom: 5px;
+		}
+		p {
+			font-size: 20px;
+			font-weight: 400;
+			color: #353535;
+		}
+
+		.icon {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			transition: all 0.3s ease-in-out;
+
+			.icon-path {
+				stroke: #353535;
+				fill: #353535;
+			}
+		}
+
+		&:hover {
+			background-color: #353535;
+
+			h3 {
+				color: #febd6d;
+			}
+			p {
+				color: #febd6d;
+			}
+		}
+	}
+
+	@media (max-width: 1024px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: 640px) {
+		grid-template-columns: 1fr;
+	}
+}

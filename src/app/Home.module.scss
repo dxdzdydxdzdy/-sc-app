@@ -223,6 +223,8 @@
 	.cards {
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
 		column-gap: 34px;
+		margin-bottom: 80px;
 	}
 }
