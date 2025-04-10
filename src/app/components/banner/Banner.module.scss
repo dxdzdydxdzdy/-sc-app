@@ -1,0 +1,36 @@
+.container {
+	width: 1240px;
+	height: 78px;
+	padding: 27px 25px;
+
+	position: relative;
+
+	background-color: #353535;
+	border-radius: 15px;
+
+	overflow: hidden;
+
+	p {
+		position: absolute;
+		font-size: 20px;
+		font-weight: 500;
+		color: #fff;
+		z-index: 500;
+		b {
+			transition: all 0.3s;
+		}
+	}
+	.percent {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 400;
+	}
+	&:hover {
+		p {
+			b {
+				color: #febd6d;
+			}
+		}
+	}
+}

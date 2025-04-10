@@ -8,7 +8,7 @@ const HoveredBuyoutIcon = ({ className }: { className?: string }) => {
 			fill='none'
 			xmlns='http://www.w3.org/2000/svg'
 		>
-			<circle cx='104' cy='104' r='102.5' stroke='#FEBD6D' stroke-width='3' />
+			<circle cx='104' cy='104' r='102.5' stroke='#FEBD6D' strokeWidth='3' />
 			<path
 				d='M205.5 106C205.5 160.388 160.293 204.5 104.5 204.5C48.7074 204.5 3.5 160.388 3.5 106C3.5 51.6116 48.7074 7.5 104.5 7.5C160.293 7.5 205.5 51.6116 205.5 106Z'
 				stroke='#FEBD6D'

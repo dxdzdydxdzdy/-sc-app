@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './Home.module.scss'
+import Banner from './components/banner/Banner'
 import CalculateDelivery from './components/calculate-delivery/CalculateDelivery'
 import Services from './components/services/Services'
 import Marquee from './components/shared/marquee/Marquee'
@@ -104,6 +105,7 @@ export default function Home() {
 					<TextLuna />
 				</div>
 				<Services />
+				<Banner />
 			</section>
 		</>
 	)
