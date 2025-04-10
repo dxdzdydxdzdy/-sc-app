@@ -191,3 +191,38 @@
 		}
 	}
 }
+
+.marquee {
+	margin-bottom: 100px;
+}
+
+.servicesContainer {
+	max-width: 1240px;
+	margin-bottom: 100px;
+
+	.signs {
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		margin-bottom: 90px;
+
+		h2 {
+			font-size: 40px;
+			font-weight: 600;
+			color: #353535;
+			margin-bottom: 27px;
+		}
+
+		p {
+			font-size: 20px;
+			font-weight: 400;
+			color: #353535;
+			max-width: 650px;
+		}
+	}
+	.cards {
+		display: flex;
+		flex-direction: row;
+		column-gap: 34px;
+	}
+}

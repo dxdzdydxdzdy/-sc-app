@@ -1,0 +1,87 @@
+.container {
+	width: 607px;
+	height: 464px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	.dialogContainer1 {
+		position: relative;
+
+		p {
+			position: absolute;
+			top: 18px;
+			left: 16px;
+
+			font-weight: 400;
+			font-size: 25px;
+			color: #353535;
+			line-height: 30px;
+
+			span {
+				font-weight: 700;
+			}
+		}
+	}
+
+	.dialogContainer2 {
+		position: relative;
+
+		p {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+
+			font-weight: 400;
+			font-size: 20px;
+			color: #353535;
+			line-height: 25px;
+
+			span {
+				font-weight: 700;
+			}
+		}
+	}
+
+	.dialog {
+		display: block;
+	}
+}
+
+.dialogContainer3 {
+	position: relative;
+
+	.lunaImage {
+		position: absolute;
+		right: -30px;
+		bottom: 0;
+	}
+
+	.link {
+		position: absolute;
+		top: 30px;
+		left: 27px;
+
+		color: #fff;
+		height: 68px;
+		width: 235;
+		font-size: 20px;
+		font-weight: 500;
+		font-family: 'Montserrat';
+		background-color: #585858;
+		border: none;
+		border-radius: 10px;
+		cursor: pointer;
+		padding: 22px 34px;
+		box-shadow: 0px 2px 0px #000;
+		transition: all 0.3s;
+
+		&:hover {
+			opacity: 0.9;
+		}
+
+		&:active {
+			box-shadow: 0px 0px 0px #d4974b;
+		}
+	}
+}

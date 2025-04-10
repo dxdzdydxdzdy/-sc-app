@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import styles from './Home.module.scss'
+import CalculateDelivery from './components/calculate-delivery/CalculateDelivery'
+import Services from './components/services/Services'
 import Marquee from './components/shared/marquee/Marquee'
+import TextLuna from './components/text-luna/TextLuna'
 
 export default function Home() {
 	return (
@@ -46,7 +49,7 @@ export default function Home() {
 									src={'/sc-logo-home.svg'}
 									alt='Лого SellerChina'
 								/>
-								<p>Sellerchina</p>
+								<p>SellerChina</p>
 							</div>
 							<div className={styles.lineContainer}>
 								<div className={styles.line2}></div>
@@ -85,8 +88,22 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section>
+			<section className={styles.marquee}>
 				<Marquee />
+			</section>
+			<section className={styles.servicesContainer}>
+				<div className={styles.signs}>
+					<h2>НАШИ УСЛУГИ</h2>
+					<p>
+						Подберем самый выгодный и безопасный тариф для вашего груза. С нами
+						доставлять товар дешевле и надежнее.
+					</p>
+				</div>
+				<div className={styles.cards}>
+					<CalculateDelivery />
+					<TextLuna />
+				</div>
+				<Services />
 			</section>
 		</>
 	)
