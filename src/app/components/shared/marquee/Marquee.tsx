@@ -2,7 +2,7 @@ import Image from 'next/image'
 import styles from './Marquee.module.scss'
 
 const Marquee = () => {
-	const items = Array.from({ length: 6 })
+	const items = Array.from({ length: 12 })
 
 	return (
 		<div className={styles.marquee}>

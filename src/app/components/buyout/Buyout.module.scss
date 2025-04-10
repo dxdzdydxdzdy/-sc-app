@@ -1,0 +1,90 @@
+.container {
+	width: 1240px;
+	margin-bottom: 54px;
+	h3 {
+		font-weight: 600;
+		font-size: 40px;
+		color: #353535;
+		line-height: 55px;
+		margin-bottom: 27px;
+		span {
+			color: #febd6d;
+		}
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 41px;
+
+		.card {
+			border-radius: 10px;
+			height: 276px;
+			padding: 19px 15px 19px 19px;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			background-color: #febd6d;
+
+			h4 {
+				font-size: 25px;
+				font-weight: 600;
+				color: #353535;
+			}
+			p {
+				font-weight: 400;
+				color: #353535;
+				font-size: 20px;
+			}
+			.link {
+				font-weight: 400;
+				color: #353535;
+				font-size: 20px;
+				position: relative;
+				display: inline-block;
+				line-height: 20px;
+				&::after {
+					content: '';
+					height: 1px;
+					width: 98%;
+					position: absolute;
+					display: block;
+					background-color: #353535;
+					transform: scaleY(1);
+					will-change: transform;
+					bottom: 0;
+					left: 2px;
+				}
+			}
+
+			transition: all 0.2s ease;
+
+			&:hover {
+				background-color: #353535;
+				h4 {
+					color: #febd6d;
+				}
+				p {
+					color: #febd6d;
+				}
+				.link {
+					color: #febd6d;
+					&::after {
+						background-color: #febd6d;
+					}
+				}
+			}
+		}
+
+		.offset {
+			margin-top: 88px;
+		}
+	}
+
+	.owner {
+		.ownerImage {
+		}
+	}
+}

@@ -1,9 +1,12 @@
 import Image from 'next/image'
 import styles from './Home.module.scss'
+import Advantages from './components/advantages/Advantages'
 import Banner from './components/banner/Banner'
+import Buyout from './components/buyout/Buyout'
 import CalculateDelivery from './components/calculate-delivery/CalculateDelivery'
 import Services from './components/services/Services'
 import Marquee from './components/shared/marquee/Marquee'
+import MarqueeHome from './components/shared/marqueeHome/MarqueeHome'
 import TextLuna from './components/text-luna/TextLuna'
 
 export default function Home() {
@@ -106,6 +109,15 @@ export default function Home() {
 				</div>
 				<Services />
 				<Banner />
+			</section>
+			<section>
+				<Buyout />
+			</section>
+			<section className={styles.marquee}>
+				<MarqueeHome />
+			</section>
+			<section>
+				<Advantages />
 			</section>
 		</>
 	)
