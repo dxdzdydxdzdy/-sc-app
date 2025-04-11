@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './Home.module.scss'
+import AboutCompany from './components/aboutCompany/AboutCompany'
 import Advantages from './components/advantages/Advantages'
 import Banner from './components/banner/Banner'
 import Buyout from './components/buyout/Buyout'
@@ -123,6 +124,9 @@ export default function Home() {
 			</section>
 			<section>
 				<AnyQuestion />
+			</section>
+			<section>
+				<AboutCompany />
 			</section>
 			<section>
 				<Management />
