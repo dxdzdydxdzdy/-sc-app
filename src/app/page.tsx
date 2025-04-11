@@ -6,6 +6,7 @@ import Banner from './components/banner/Banner'
 import Buyout from './components/buyout/Buyout'
 import CalculateDelivery from './components/calculate-delivery/CalculateDelivery'
 import Services from './components/services/Services'
+import AnyQuestion from './components/shared/anyQuestion/AnyQuestion'
 import Marquee from './components/shared/marquee/Marquee'
 import MarqueeHome from './components/shared/marqueeHome/MarqueeHome'
 import TextLuna from './components/text-luna/TextLuna'
@@ -122,6 +123,9 @@ export default function Home() {
 			</section>
 			<section>
 				<AboutCompany />
+			</section>
+			<section>
+				<AnyQuestion />
 			</section>
 		</>
 	)

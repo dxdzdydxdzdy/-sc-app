@@ -7,12 +7,9 @@ import Button from '../ui/Button/Button'
 import styles from './Popup.module.scss'
 
 const formatPhone = (value: string) => {
-	// Убираем всё кроме цифр
 	const digits = value.replace(/\D/g, '')
-
 	let formatted = ''
 
-	// Форматируем оставшиеся цифры
 	if (digits.length > 0) {
 		formatted += ' (' + digits.substring(0, 3)
 	}
