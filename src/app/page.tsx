@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import styles from './Home.module.scss'
-import AboutCompany from './components/aboutCompany/AboutCompany'
 import Advantages from './components/advantages/Advantages'
 import Banner from './components/banner/Banner'
 import Buyout from './components/buyout/Buyout'
 import CalculateDelivery from './components/calculate-delivery/CalculateDelivery'
+import Management from './components/management/Management'
 import Services from './components/services/Services'
 import AnyQuestion from './components/shared/anyQuestion/AnyQuestion'
 import Marquee from './components/shared/marquee/Marquee'
@@ -122,10 +122,10 @@ export default function Home() {
 				<Advantages />
 			</section>
 			<section>
-				<AboutCompany />
+				<AnyQuestion />
 			</section>
 			<section>
-				<AnyQuestion />
+				<Management />
 			</section>
 		</>
 	)
