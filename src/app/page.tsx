@@ -6,10 +6,12 @@ import Banner from './components/banner/Banner'
 import Buyout from './components/buyout/Buyout'
 import CalculateDelivery from './components/calculate-delivery/CalculateDelivery'
 import Management from './components/management/Management'
+import Rating from './components/rating/Rating'
 import Services from './components/services/Services'
 import AnyQuestion from './components/shared/anyQuestion/AnyQuestion'
 import Marquee from './components/shared/marquee/Marquee'
 import MarqueeHome from './components/shared/marqueeHome/MarqueeHome'
+import Socials from './components/socials/Socials'
 import TextLuna from './components/text-luna/TextLuna'
 
 export default function Home() {
@@ -130,6 +132,12 @@ export default function Home() {
 			</section>
 			<section>
 				<Management />
+			</section>
+			<section>
+				<Rating />
+			</section>
+			<section>
+				<Socials />
 			</section>
 		</>
 	)
