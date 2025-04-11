@@ -1,6 +1,7 @@
 .container {
 	width: 1240px;
-	margin-bottom: 54px;
+	margin-bottom: 300px;
+	position: relative;
 	h3 {
 		font-weight: 600;
 		font-size: 40px;
@@ -84,7 +85,84 @@
 	}
 
 	.owner {
+		position: absolute;
+		position: relative;
+		pointer-events: none;
+		top: 0;
+		left: 0;
+
+		margin-bottom: 54px;
+
 		.ownerImage {
+			position: absolute;
+			top: -190px;
+
+			.klim {
+				position: relative;
+				left: 60px;
+			}
+		}
+		.speech {
+			font-size: 20px;
+			font-weight: 500;
+			color: #353535;
+
+			width: 830px;
+			line-height: 27px;
+			padding: 19px 0 0 19px;
+			position: relative;
+			position: absolute;
+
+			span {
+				font-weight: 700;
+			}
+			&::after {
+				content: '';
+				background-color: #febd6d;
+				height: 7px;
+				width: 329px;
+				position: absolute;
+				border-radius: 3px;
+				top: 0;
+				left: 0;
+			}
+			&::before {
+				content: '';
+				background-color: #febd6d;
+				position: absolute;
+				border-radius: 3px;
+				width: 7px;
+				height: 97px;
+				left: 0;
+				top: 0;
+			}
+		}
+	}
+	.ownerInfo {
+		position: absolute;
+
+		left: 320px;
+		top: 57px;
+
+		.ownerName {
+			font-weight: 600;
+			font-size: 25px;
+		}
+		.ownerPosition {
+			font-weight: 400;
+			font-size: 20px;
+			padding-left: 17px;
+
+			&::after {
+				content: '';
+				width: 8px;
+				height: 26px;
+				background-color: #febd6d;
+				border-radius: 4px;
+				position: absolute;
+				left: 0;
+				top: 40px;
+			}
 		}
 	}
 }

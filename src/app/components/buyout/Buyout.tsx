@@ -49,12 +49,25 @@ const Buyout = () => {
 			</div>
 			<div className={styles.owner}>
 				<div className={styles.ownerImage}>
-					<Image
-						width={0}
-						height={0}
-						alt='Генеральный директор'
-						src={'/owner.svg'}
-					/>
+					<div className={styles.klim}>
+						<Image
+							width={259}
+							height={350}
+							alt='Генеральный директор'
+							src={'/owner.png'}
+						/>
+					</div>
+					<p className={styles.speech}>
+						<span>Наш подход к клиентам индивидуален!</span>
+						<br />
+						Мы с легкостью находим общий язык и стараемся сделать все возможное,
+						<br />
+						чтобы вы остались довольны нашим сервисом!
+					</p>
+				</div>
+				<div className={styles.ownerInfo}>
+					<p className={styles.ownerName}>Клим</p>
+					<p className={styles.ownerPosition}>Генеральный директор компании</p>
 				</div>
 			</div>
 		</div>
