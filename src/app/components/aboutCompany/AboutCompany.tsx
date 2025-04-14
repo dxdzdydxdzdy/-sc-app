@@ -1,7 +1,12 @@
+'use client'
+
 import Image from 'next/image'
+import { useCountUpOnView } from '../../../hooks/useCountUpOnView'
 import styles from './AboutCompany.module.scss'
 
 const AboutCompany = () => {
+	const ref = useCountUpOnView()
+
 	return (
 		<div className={styles.container}>
 			<span className={styles.containerLabel}>SELLERCHINA</span>
@@ -51,17 +56,21 @@ const AboutCompany = () => {
 					<Image width={489} height={451} alt='' src={'/aboutPhoto.svg'} />
 				</div>
 			</div>
-			<div className={styles.stats}>
+			<div className={styles.stats} ref={ref}>
 				<div className={styles.statsItem}>
 					<p className={styles.moreThan}>Более</p>
-					<p className={styles.digit}>3</p>
+					<p data-target='3' data-suffix='' className={styles.digit}>
+						0
+					</p>
 					<p className={styles.description}>
 						лет работы
 						<br /> с Китаем
 					</p>
 				</div>
 				<div className={styles.statsItem}>
-					<p className={styles.digit}>200+</p>
+					<p data-target='200' data-suffix='+' className={styles.digit}>
+						0+
+					</p>
 					<p className={styles.description}>
 						тонн <br />
 						доставляем <br />
@@ -69,7 +78,9 @@ const AboutCompany = () => {
 					</p>
 				</div>
 				<div className={styles.statsItem}>
-					<p className={styles.digit}>150+</p>
+					<p data-target='150' data-suffix='+' className={styles.digit}>
+						0+
+					</p>
 					<p className={styles.description}>
 						клиентов
 						<br />
@@ -78,7 +89,9 @@ const AboutCompany = () => {
 					</p>
 				</div>
 				<div className={styles.statsItem}>
-					<p className={styles.digit}>95%</p>
+					<p data-target='95' data-suffix='%' className={styles.digit}>
+						0%
+					</p>
 					<p className={styles.description}>
 						доставок <br />в срок
 					</p>

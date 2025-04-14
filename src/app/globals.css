@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-@import "tw-animate-css";
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -118,10 +118,36 @@ body {
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
+	* {
+		@apply border-border outline-ring/50;
 	}
-  body {
-    @apply bg-background text-foreground;
+	body {
+		@apply bg-background text-foreground;
 	}
 }
+
+/* .myCarouselWrap .control-dots {
+	position: relative;
+
+	display: flex !important;
+	justify-content: center;
+	gap: 10px;
+}
+
+.myCarouselWrap .control-dots .dot {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #353535;
+	transition: all 0.3s ease;
+	opacity: 1;
+}
+
+.myCarouselWrap .control-dots .dot.selected {
+	background-color: #febd6d;
+	transform: scale(1.3);
+}
+
+.myCarouselWrap .control-dots .dot:hover {
+	background-color: #febd6dc2;
+} */

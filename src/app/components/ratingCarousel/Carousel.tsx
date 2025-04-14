@@ -63,41 +63,43 @@ const data = [
 
 export default function EasyCarousel() {
 	return (
-		<Carousel
-			showThumbs={false}
-			infiniteLoop
-			autoPlay
-			showStatus={false}
-			centerMode={true}
-			dynamicHeight={false}
-			centerSlidePercentage={33.33}
-			emulateTouch
-			showArrows={false}
-			className={styles.carouselContainer}
-		>
-			{data.map((item, index) => (
-				<div key={index} className={styles.item}>
-					<div className={styles.itemTop}>
-						<div style={{ width: 60, height: 60 }}>
-							<Image
-								src={item.fromImg}
-								alt={item.from}
-								width={60}
-								height={60}
-								className={styles.itemServiceImg}
-							/>
+		<div className='myCarouselWrap'>
+			<Carousel
+				showThumbs={false}
+				infiniteLoop
+				autoPlay
+				showStatus={false}
+				centerMode={true}
+				dynamicHeight={false}
+				centerSlidePercentage={33.33}
+				emulateTouch
+				showArrows={false}
+				className={styles.carouselContainer}
+			>
+				{data.map((item, index) => (
+					<div key={index} className={styles.item}>
+						<div className={styles.itemTop}>
+							<div style={{ width: 60, height: 60 }}>
+								<Image
+									src={item.fromImg}
+									alt={item.from}
+									width={60}
+									height={60}
+									className={styles.itemServiceImg}
+								/>
+							</div>
+							<div className={styles.info}>
+								<p className={styles.itemName}>{item.name}</p>
+								<p className={styles.itemServiceName}>{item.from}</p>
+							</div>
 						</div>
-						<div className={styles.info}>
-							<p className={styles.itemName}>{item.name}</p>
-							<p className={styles.itemServiceName}>{item.from}</p>
-						</div>
-					</div>
 
-					<div>
-						<p className={styles.itemText}>{item.text}</p>
+						<div>
+							<p className={styles.itemText}>{item.text}</p>
+						</div>
 					</div>
-				</div>
-			))}
-		</Carousel>
+				))}
+			</Carousel>
+		</div>
 	)
 }
