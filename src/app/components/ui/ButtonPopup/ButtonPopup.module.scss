@@ -11,11 +11,19 @@
 	padding: 12px 48px 13px 48px;
 	box-shadow: 0px 2px 0px #d4974b;
 	transition: all 0.1s;
+	white-space: nowrap;
 
 	@media (max-width: 1260px) {
 		height: 49px;
-		font-size: 15px;
-		padding: 10px 34px 10px 34px;
+		font-size: 16px;
+		padding: 15px 14px 5px 14px;
+		margin-left: 15px;
+	}
+	@media (max-width: 960px) {
+		height: 30px;
+		font-size: 12px;
+		padding: 5px 10px;
+		margin-left: 15px;
 	}
 }
 

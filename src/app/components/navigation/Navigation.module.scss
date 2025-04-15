@@ -117,6 +117,23 @@
 	padding: 4px 8px;
 }
 
-// .navList .navItem:nth-child(4):hover::after {
-// 	background-color: #febd6d;
-// }
+@media (max-width: 960px) {
+	.nav {
+		font-size: 14px;
+	}
+	.navList {
+		width: 100%;
+		column-gap: 20px;
+		padding-bottom: 6px;
+	}
+}
+@media (max-width: 820px) {
+	.nav {
+		font-size: 12px;
+	}
+	.navList {
+		width: 100%;
+		column-gap: 10px;
+		padding-bottom: 6px;
+	}
+}
