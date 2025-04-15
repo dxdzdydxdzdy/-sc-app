@@ -70,6 +70,7 @@
 			}
 		}
 	}
+
 	.socials {
 		display: flex;
 		flex-direction: row;
@@ -124,5 +125,71 @@
 
 	.partner p {
 		font-size: 9px;
+	}
+}
+
+.logoMobile {
+	display: none;
+}
+
+.burger {
+	display: none;
+}
+.headerRight {
+	display: none;
+}
+
+//-------MOBILE------//-------MOBILE------//-------MOBILE------
+
+@media (max-width: 660px) {
+	.header {
+		box-shadow: none;
+		height: 40px;
+		padding-top: 20px;
+	}
+	.container {
+		max-width: 660px;
+		align-items: center;
+	}
+	.logoDesktop {
+		display: none;
+	}
+
+	.logoMobile {
+		display: block;
+	}
+
+	.mid {
+		display: none !important;
+	}
+
+	.buttonContainer {
+		display: none !important;
+	}
+
+	.headerRight {
+		display: flex;
+		flex-direction: row;
+		column-gap: 20px;
+		align-items: center;
+	}
+	.mobileSocials {
+		display: flex;
+		flex-direction: row;
+		column-gap: 10px;
+		align-items: center;
+	}
+
+	.burger {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.burgerButton {
+		background: none;
+		border: none;
+		font-size: 1.8rem;
+		cursor: pointer;
 	}
 }
