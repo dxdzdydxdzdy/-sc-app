@@ -11,6 +11,12 @@
 	padding: 12px 48px 13px 48px;
 	box-shadow: 0px 2px 0px #d4974b;
 	transition: all 0.1s;
+
+	@media (max-width: 1260px) {
+		height: 49px;
+		font-size: 15px;
+		padding: 10px 34px 10px 34px;
+	}
 }
 
 .button:active {

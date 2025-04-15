@@ -8,6 +8,38 @@
 		margin-bottom: 38px;
 		line-height: 40px;
 	}
+	@media (max-width: 1320px) {
+		width: 610px;
+		margin-bottom: 40px;
+		h2 {
+			font-size: 35px;
+		}
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 20px;
+			justify-content: center;
+		}
+		.card {
+			width: 293px;
+		}
+		.info {
+			height: 176px;
+			width: 293px;
+			.text {
+				font-size: 25px;
+				font-weight: 600;
+				line-height: 120%;
+				padding: 0;
+			}
+			p {
+				font-size: 18px;
+				font-weight: 500;
+				line-height: 120%;
+				padding-left: 2px;
+			}
+		}
+	}
 }
 .grid {
 	display: flex;

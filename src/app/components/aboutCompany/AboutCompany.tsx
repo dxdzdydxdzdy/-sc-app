@@ -5,7 +5,8 @@ import { useCountUpOnView } from '../../../hooks/useCountUpOnView'
 import styles from './AboutCompany.module.scss'
 
 const AboutCompany = () => {
-	const ref = useCountUpOnView()
+	// const ref = useCountUpOnView()
+	const statsRef = useCountUpOnView(3000)
 
 	return (
 		<div className={styles.container}>
@@ -53,10 +54,10 @@ const AboutCompany = () => {
 					</p>
 				</div>
 				<div className={styles.right}>
-					<Image width={489} height={451} alt='' src={'/aboutPhoto.svg'} />
+					<Image width={610} height={451} alt='' src={'/aboutPhoto.svg'} />
 				</div>
 			</div>
-			<div className={styles.stats} ref={ref}>
+			<div className={styles.stats} ref={statsRef}>
 				<div className={styles.statsItem}>
 					<p className={styles.moreThan}>Более</p>
 					<p data-target='3' data-suffix='' className={styles.digit}>

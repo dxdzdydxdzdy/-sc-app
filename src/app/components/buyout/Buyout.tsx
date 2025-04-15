@@ -28,11 +28,11 @@ const Buyout = () => {
 
 	return (
 		<div className={styles.container}>
-			<h3>
+			<h2>
 				ДЕЛАЕМ ВЫКУП С <span>1688</span> И <span>TAOBAO</span>
 				<br />
 				НАПРЯМУЮ У <span>ФАБРИК</span> И <span>ПОСТАВЩИКОВ</span>
-			</h3>
+			</h2>
 			<div className={styles.grid}>
 				{buyoutData.map(({ label, subLabel, link }, index) => (
 					<div
@@ -58,9 +58,9 @@ const Buyout = () => {
 						/>
 					</div>
 					<p className={styles.speech}>
-						<span>Наш подход к клиентам индивидуален!</span>
+						<span>Наш подход к клиентам индивидуален! </span>
 						<br />
-						Мы с легкостью находим общий язык и стараемся сделать все возможное,
+						Мы с легкостью находим общий язык и стараемся сделать все возможное,{' '}
 						<br />
 						чтобы вы остались довольны нашим сервисом!
 					</p>

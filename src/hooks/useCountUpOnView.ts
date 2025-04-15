@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react'
 
-export const useCountUpOnView = (duration = 1000) => {
+export const useCountUpOnView = (duration = 1500) => {
 	const ref = useRef<HTMLDivElement>(null)
 
 	useEffect(() => {
@@ -12,25 +12,28 @@ export const useCountUpOnView = (duration = 1000) => {
 					const digits = ref.current.querySelectorAll('[data-target]')
 
 					digits.forEach(el => {
-						const target = parseInt(el.getAttribute('data-target') || '0')
+						const target = parseFloat(el.getAttribute('data-target') || '0')
 						const suffix = el.getAttribute('data-suffix') || ''
-						let current = 0
+						const prefix = el.getAttribute('data-prefix') || ''
+						const start = performance.now()
 
-						const totalFrames = Math.round(duration / 16) // при 60fps
-						const increment = target / totalFrames
+						const animate = (now: number) => {
+							const elapsed = now - start
+							const progress = Math.min(elapsed / duration, 1)
 
-						let frame = 0
+							const easedProgress = 1 - Math.pow(1 - progress, 3)
+							const current = Math.round(target * easedProgress)
 
-						const counter = setInterval(() => {
-							frame++
-							current += increment
-							if (frame >= totalFrames) {
-								el.textContent = target + suffix
-								clearInterval(counter)
+							el.textContent = `${prefix}${current}${suffix}`
+
+							if (progress < 1) {
+								requestAnimationFrame(animate)
 							} else {
-								el.textContent = Math.round(current) + suffix
+								el.textContent = `${prefix}${Math.round(target)}${suffix}`
 							}
-						}, 16)
+						}
+
+						requestAnimationFrame(animate)
 					})
 				}
 			},

@@ -1,3 +1,9 @@
+// body {
+// 	* {
+// 		border: 1px solid red;
+// 	}
+// }
+
 .delivery {
 	padding: 40px 100px;
 	margin-bottom: 86px;
@@ -7,9 +13,59 @@
 	justify-content: center;
 	max-width: 1240px;
 	position: relative;
+
 	.container {
 		min-width: 1240px;
 	}
+
+	//---------------------------------------------------
+	@media (max-width: 1320px) {
+		max-width: 610px;
+		width: 610px;
+		.container {
+			width: 610px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			h1 {
+				font-size: 40px;
+				font-weight: 500;
+				color: #353535;
+				width: 600px;
+				line-height: 45px;
+			}
+			.truck {
+				width: 300px;
+				height: 300px;
+				right: 0px;
+				top: 130px;
+			}
+			.top {
+				display: none;
+			}
+			.absolute {
+				width: 600px;
+				font-size: 33px;
+				font-weight: 500;
+				color: #febd6d;
+				position: absolute;
+				top: 80px;
+				left: 0;
+			}
+			.relative {
+				width: 610px;
+				margin-bottom: 80px;
+			}
+			.line1 {
+				width: 11px;
+			}
+			.line2 {
+				width: 27px;
+			}
+		}
+	}
+	//---------------------------------------------------
 	h1 {
 		font-size: 60px;
 		font-weight: 500;
@@ -204,10 +260,11 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: start;
+		align-items: start;
 		margin-bottom: 90px;
 
 		h2 {
-			font-size: 40px;
+			font-size: 35px;
 			font-weight: 600;
 			color: #353535;
 			margin-bottom: 27px;
@@ -226,5 +283,35 @@
 		justify-content: center;
 		column-gap: 34px;
 		margin-bottom: 80px;
+	}
+	@media (max-width: 1320px) {
+		.cards {
+			flex-direction: column;
+			row-gap: 20px;
+			align-items: center;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+.servicesAndCards {
+	display: flex;
+	flex-direction: column;
+
+	@media (max-width: 1320px) {
+		flex-direction: column-reverse;
+		row-gap: 20px;
+		align-items: center;
+	}
+}
+
+@media (max-width: 1320px) {
+	.servicesContainer {
+		max-width: 1240px;
+		margin-bottom: 40px;
+		width: 610px;
+		.signs {
+			margin-bottom: 20px;
+		}
 	}
 }

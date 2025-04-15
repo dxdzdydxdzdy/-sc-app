@@ -26,11 +26,33 @@
 		top: 0;
 		z-index: 400;
 	}
+	.percentLess {
+		display: none;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 400;
+	}
 	&:hover {
 		p {
 			b {
 				color: #febd6d;
 			}
+		}
+	}
+	@media (max-width: 1320px) {
+		width: 610px;
+		height: 118px;
+		padding: 17px;
+
+		p {
+			width: 430px;
+		}
+		.percent {
+			display: none;
+		}
+		.percentLess {
+			display: block;
 		}
 	}
 }

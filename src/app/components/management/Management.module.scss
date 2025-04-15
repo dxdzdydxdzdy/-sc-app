@@ -54,4 +54,16 @@
 			font-weight: 500;
 		}
 	}
+	@media (max-width: 1320px) {
+		width: 610px;
+		margin-bottom: 40px;
+		h2 {
+			font-size: 35px;
+		}
+		.grid {
+			grid-template-columns: 1fr;
+			row-gap: 30px;
+			justify-content: center;
+		}
+	}
 }

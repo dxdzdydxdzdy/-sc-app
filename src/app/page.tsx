@@ -108,11 +108,13 @@ export default function Home() {
 						доставлять товар дешевле и надежнее.
 					</p>
 				</div>
-				<div className={styles.cards}>
-					<CalculateDelivery />
-					<TextLuna />
+				<div className={styles.servicesAndCards}>
+					<div className={styles.cards}>
+						<CalculateDelivery />
+						<TextLuna />
+					</div>
+					<Services />
 				</div>
-				<Services />
 				<Banner />
 			</section>
 			<section className={styles.buyout}>

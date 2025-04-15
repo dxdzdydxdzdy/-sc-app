@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import styles from './Carousel.module.scss'
@@ -62,6 +63,22 @@ const data = [
 ]
 
 export default function EasyCarousel() {
+	const [slidePercent, setSlidePercent] = useState(33.33)
+
+	useEffect(() => {
+		const updatePercent = () => {
+			const width = window.innerWidth
+			if (width < 1320) {
+				setSlidePercent(100)
+			} else {
+				setSlidePercent(33.33)
+			}
+		}
+
+		updatePercent()
+		window.addEventListener('resize', updatePercent)
+		return () => window.removeEventListener('resize', updatePercent)
+	}, [])
 	return (
 		<div className='myCarouselWrap'>
 			<Carousel
@@ -71,7 +88,7 @@ export default function EasyCarousel() {
 				showStatus={false}
 				centerMode={true}
 				dynamicHeight={false}
-				centerSlidePercentage={33.33}
+				centerSlidePercentage={slidePercent}
 				emulateTouch
 				showArrows={false}
 				className={styles.carouselContainer}

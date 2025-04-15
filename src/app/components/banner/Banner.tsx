@@ -16,6 +16,13 @@ const Banner = () => {
 					alt='percent'
 					className={styles.percent}
 				/>
+				<Image
+					src={'/percentBannerLess.svg'}
+					width={610}
+					height={118}
+					alt='percent'
+					className={styles.percentLess}
+				/>
 			</Link>
 		</div>
 	)

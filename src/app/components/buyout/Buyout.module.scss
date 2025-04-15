@@ -2,7 +2,7 @@
 	width: 1240px;
 	margin-bottom: 300px;
 	position: relative;
-	h3 {
+	h2 {
 		font-weight: 600;
 		font-size: 40px;
 		color: #353535;
@@ -162,6 +162,40 @@
 				position: absolute;
 				left: 0;
 				top: 40px;
+			}
+		}
+	}
+	@media (max-width: 1320px) {
+		width: 610px;
+		h2 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+		.ownerInfo {
+			.ownerPosition {
+				padding-top: 6px;
+				font-size: 15px;
+			}
+		}
+		.owner {
+			.speech {
+				width: 600px;
+				font-size: 18px;
+				br {
+					display: none;
+				}
+			}
+		}
+
+		.grid {
+			gap: 20px;
+			padding-bottom: 100px;
+			.offset {
+				margin-top: 0px;
+			}
+			.card:nth-child(even) {
+				position: relative;
+				transform: translateY(88px);
 			}
 		}
 	}
