@@ -1,3 +1,7 @@
+// .header * {
+// 	border: 1px solid red;
+// }
+
 .header {
 	display: flex;
 	flex-direction: row;
@@ -144,12 +148,23 @@
 @media (max-width: 660px) {
 	.header {
 		box-shadow: none;
-		height: 40px;
+		height: 30px;
 		padding-top: 20px;
+		width: 100%;
+		.container {
+			max-width: 375px;
+			align-items: center;
+			padding: 0;
+		}
 	}
-	.container {
-		max-width: 660px;
-		align-items: center;
+
+	.logo {
+		padding-top: 0px;
+		height: fit-content;
+		.logoLink {
+			display: flex;
+			align-items: center;
+		}
 	}
 	.logoDesktop {
 		display: none;

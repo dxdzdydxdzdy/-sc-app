@@ -45,6 +45,7 @@ export default function Home() {
 									height={66}
 									src={'/china-flag.svg'}
 									alt='Флаг Китая'
+									className={styles.content1}
 								/>
 								<p>Китай</p>
 							</div>
@@ -57,6 +58,7 @@ export default function Home() {
 									height={66}
 									src={'/sc-logo-home.svg'}
 									alt='Лого SellerChina'
+									className={styles.content2}
 								/>
 								<p>SellerChina</p>
 							</div>
@@ -69,6 +71,7 @@ export default function Home() {
 									height={76}
 									src={'/markets.svg'}
 									alt='Маркетплейсы'
+									className={styles.content3}
 								/>
 								<p>Маркетплейсы</p>
 							</div>

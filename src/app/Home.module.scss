@@ -3,7 +3,9 @@
 // 		border: 1px solid red;
 // 	}
 // }
-
+// .delivery * {
+// 	border: 1px solid red;
+// }
 .delivery {
 	padding: 40px 100px;
 	margin-bottom: 86px;
@@ -21,6 +23,7 @@
 	//---------------------------------------------------
 	@media (max-width: 1320px) {
 		max-width: 610px;
+		margin-bottom: 140px;
 		width: 610px;
 		.container {
 			min-width: 0;
@@ -63,6 +66,123 @@
 			}
 			.line2 {
 				width: 27px;
+			}
+		}
+	}
+	@media (max-width: 660px) {
+		max-width: 375px;
+		min-height: 0px;
+		width: 375px;
+		padding: 50px 0 0 0;
+		margin-bottom: 162px;
+		.container {
+			min-width: 375px;
+			max-width: 375px;
+			width: 375px;
+			height: fit-content;
+
+			h1 {
+				font-size: 25px;
+				width: 375px;
+				line-height: 30px;
+			}
+			.truck {
+				width: 115px;
+				height: 106px;
+				right: 0;
+				top: 160px;
+			}
+			.top {
+				display: none;
+			}
+			.absolute {
+				width: 375px;
+				height: 30px;
+				font-size: 20px;
+				font-weight: 500;
+				color: #febd6d;
+				position: absolute;
+				top: 80px;
+				left: 0;
+			}
+			.relative {
+				width: 375px;
+				margin-bottom: 0;
+				min-height: 145px;
+			}
+			.info {
+				width: 375px;
+				margin-top: 0;
+			}
+			.mid {
+				width: 375px;
+			}
+			.lineContainer {
+				padding-bottom: 45px;
+			}
+			.content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				position: relative;
+
+				p {
+					font-size: 12px;
+					margin-top: 10px;
+					text-align: center;
+				}
+			}
+			.content1 {
+				width: 37px;
+				height: 36px;
+			}
+			.content2 {
+				width: 37px;
+				height: 36px;
+			}
+			.content3 {
+				width: 57px;
+				height: 42px;
+			}
+			.line1 {
+				width: 17px;
+				position: absolute;
+			}
+			.line2 {
+				width: 33px;
+				position: absolute;
+				left: 105px;
+			}
+			.bot {
+				p {
+					font-size: 9px;
+				}
+				form {
+					column-gap: 11px;
+					input {
+						width: 206px;
+						height: 35px;
+
+						padding: 0px 0 0 32px;
+						font-size: 10px;
+
+						&::placeholder {
+							font-size: 10px;
+						}
+					}
+					.phone {
+						width: 17px;
+						height: 16px;
+						left: 10px;
+						top: 10px;
+					}
+					button {
+						padding: 0;
+						width: 108px;
+						height: 35px;
+						font-size: 14px;
+					}
+				}
 			}
 		}
 	}
