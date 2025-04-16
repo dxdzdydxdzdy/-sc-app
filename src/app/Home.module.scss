@@ -372,6 +372,7 @@
 .marquee {
 	margin-bottom: 100px;
 	@media (max-width: 660px) {
+		margin-bottom: 70px;
 	}
 }
 
@@ -435,6 +436,25 @@
 		width: 610px;
 		.signs {
 			margin-bottom: 20px;
+		}
+	}
+}
+@media (max-width: 660px) {
+	.servicesContainer {
+		width: 375px;
+		margin-bottom: 100px;
+		max-width: 375px;
+
+		.signs {
+			h2 {
+				font-size: 25px;
+				margin-bottom: 11px;
+			}
+
+			p {
+				font-size: 15px;
+				max-width: 375px;
+			}
 		}
 	}
 }

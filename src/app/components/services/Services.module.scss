@@ -55,14 +55,42 @@
 		}
 	}
 
-	@media (max-width: 640px) {
-		grid-template-columns: 1fr;
-	}
 	@media (max-width: 1320px) {
 		grid-template-columns: repeat(2, 1fr);
 		row-gap: 40px;
 		justify-content: center;
 		width: 610px;
 		margin-bottom: 20px;
+	}
+	@media (max-width: 660px) {
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 16px;
+		row-gap: 20px;
+		margin-bottom: 17px;
+		width: 375px;
+
+		.card {
+			width: 183px;
+			height: 197px;
+
+			padding: 18px 12px 0 9px;
+
+			h3 {
+				font-size: 17px;
+
+				line-height: 20px;
+				margin-bottom: 5px;
+			}
+			p {
+				font-size: 13px;
+			}
+
+			.icon {
+				width: 121px;
+				height: 111px;
+				right: 0;
+				bottom: 0px;
+			}
+		}
 	}
 }
