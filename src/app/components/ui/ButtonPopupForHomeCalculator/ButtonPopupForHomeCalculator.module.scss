@@ -12,6 +12,13 @@
 	padding: 12px 22px;
 	box-shadow: 0px 2px 0px #d4974b;
 	transition: all 0.3s;
+
+	@media (max-width: 660px) {
+		height: 30px;
+		width: 147px;
+		font-size: 12px;
+		padding: 6px 0px;
+	}
 }
 .button:hover {
 	opacity: 0.8;

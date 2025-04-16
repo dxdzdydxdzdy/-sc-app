@@ -78,6 +78,7 @@ const CalculateDelivery = () => {
 								<Image
 									width={41}
 									height={41}
+									className={styles.typesItemImg}
 									src={
 										selectedType === type.key
 											? type.selectedImg
@@ -140,6 +141,7 @@ const CalculateDelivery = () => {
 								height={40}
 								alt='Китай'
 								src={'/routeFlagChina.svg'}
+								className={styles.routeImg}
 							/>
 							<p>Китай</p>
 							<Image
@@ -147,12 +149,14 @@ const CalculateDelivery = () => {
 								height={40}
 								alt='arrow'
 								src={'/routeArrow.svg'}
+								className={styles.routeImgArrow}
 							/>
 							<Image
 								width={54}
 								height={40}
 								alt='Россия'
 								src={'/routeFlagRussia.svg'}
+								className={styles.routeImg}
 							/>
 							<p>Россия</p>
 						</div>
@@ -176,3 +180,10 @@ const CalculateDelivery = () => {
 }
 
 export default CalculateDelivery
+{
+	/* <div className={styles.footer}>
+	<p>
+		Сделаем все за вас - от поиска поставщика до продвижения на маркетплейсах
+	</p>
+</div> */
+}
