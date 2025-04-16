@@ -184,6 +184,7 @@
 		.owner {
 			.speech {
 				width: 600px;
+
 				font-size: 18px;
 				br {
 					display: none;
@@ -215,7 +216,7 @@
 		}
 		.ownerInfo {
 			left: 200px;
-			top: 4px;
+			top: 6px;
 			position: relative;
 			.ownerName {
 				font-size: 20px;
@@ -271,7 +272,7 @@
 
 				width: 375px;
 				line-height: 15px;
-				padding: 4px 0 0 12px;
+				padding: 6px 0 0 12px;
 
 				br {
 					display: block;
