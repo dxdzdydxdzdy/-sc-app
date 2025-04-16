@@ -29,8 +29,7 @@ const Buyout = () => {
 	return (
 		<div className={styles.container}>
 			<h2>
-				ДЕЛАЕМ ВЫКУП С <span>1688</span> И <span>TAOBAO</span>
-				<br />
+				ДЕЛАЕМ ВЫКУП С <span>1688</span> И <span>TAOBAO</span> <br />
 				НАПРЯМУЮ У <span>ФАБРИК</span> И <span>ПОСТАВЩИКОВ</span>
 			</h2>
 			<div className={styles.grid}>
@@ -55,13 +54,21 @@ const Buyout = () => {
 							height={350}
 							alt='Генеральный директор'
 							src={'/owner.png'}
+							className={styles.klimDesktop}
+						/>
+						<Image
+							width={155}
+							height={209}
+							alt='Генеральный директор'
+							src={'/ownerMobile.png'}
+							className={styles.klimMobile}
 						/>
 					</div>
 					<p className={styles.speech}>
 						<span>Наш подход к клиентам индивидуален! </span>
 						<br />
 						Мы с легкостью находим общий язык и стараемся сделать все возможное,{' '}
-						<br />
+						<br className={styles.br} />
 						чтобы вы остались довольны нашим сервисом!
 					</p>
 				</div>

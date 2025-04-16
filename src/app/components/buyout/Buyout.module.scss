@@ -100,6 +100,10 @@
 			.klim {
 				position: relative;
 				left: 60px;
+
+				.klimMobile {
+					display: none;
+				}
 			}
 		}
 		.speech {
@@ -196,6 +200,132 @@
 			.card:nth-child(even) {
 				position: relative;
 				transform: translateY(88px);
+			}
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		margin-bottom: 80px;
+		h2 {
+			font-size: 25px;
+			line-height: 30px;
+			br {
+				display: none;
+			}
+		}
+		.ownerInfo {
+			left: 200px;
+			top: 4px;
+			position: relative;
+			.ownerName {
+				font-size: 20px;
+				line-height: 50px;
+				margin-bottom: -17px;
+			}
+			.ownerPosition {
+				font-size: 10px;
+				padding-left: 10px;
+				width: 150px;
+
+				&::after {
+					content: '';
+					width: 4px;
+					height: 26px;
+					background-color: #febd6d;
+					border-radius: 4px;
+					position: absolute;
+					left: 0;
+					top: 40px;
+				}
+			}
+		}
+
+		.owner {
+			position: absolute;
+			position: relative;
+			pointer-events: none;
+			top: 0;
+			left: 10px;
+
+			margin-bottom: 54px;
+
+			.ownerImage {
+				position: absolute;
+				top: -140px;
+				left: -10px;
+
+				.klim {
+					position: relative;
+					left: 50px;
+
+					.klimMobile {
+						display: block;
+					}
+					.klimDesktop {
+						display: none;
+					}
+				}
+			}
+			.speech {
+				font-size: 10px;
+
+				width: 375px;
+				line-height: 15px;
+				padding: 4px 0 0 12px;
+
+				br {
+					display: block;
+				}
+				.br {
+					display: none;
+				}
+
+				&::after {
+					height: 4px;
+					width: 214px;
+					top: 0;
+					left: 0;
+				}
+				&::before {
+					width: 4px;
+					height: 50px;
+					left: 0;
+					top: 1px;
+				}
+			}
+		}
+
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(158px, 1fr));
+			gap: 11px;
+			column-gap: 25px;
+
+			.card {
+				border-radius: 10px;
+				height: 170px;
+				padding: 14px 12px 8px 10px;
+				border-radius: 5px;
+
+				h4 {
+					font-size: 18px;
+					line-height: 22px;
+				}
+				p {
+					font-size: 12px;
+				}
+				.link {
+					font-size: 15px;
+					line-height: 17px;
+					&::after {
+						bottom: 0;
+						left: 2px;
+					}
+				}
+			}
+			.card:nth-child(even) {
+				position: relative;
+				transform: translateY(51px);
 			}
 		}
 	}
