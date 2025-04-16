@@ -46,7 +46,14 @@ const TextLuna = () => {
 					height={380}
 					src={'/lunaHome.svg'}
 					alt='Луна'
-					className={styles.lunaImage}
+					className={styles.lunaImageDesktop}
+				/>
+				<Image
+					width={199}
+					height={217}
+					src={'/lunaHomeMobile.svg'}
+					alt='Луна'
+					className={styles.lunaImageMobile}
 				/>
 				<Link
 					href={'https://t.me/sellerchinaru1'}

@@ -52,10 +52,13 @@
 .dialogContainer3 {
 	position: relative;
 
-	.lunaImage {
+	.lunaImageDesktop {
 		position: absolute;
 		right: -30px;
 		bottom: 1px;
+	}
+	.lunaImageMobile {
+		display: none;
 	}
 
 	.link {
@@ -117,9 +120,15 @@
 			}
 		}
 		.dialogContainer3 {
-			.lunaImage {
-				right: -10px;
+			.lunaImageDesktop {
+				display: none;
+			}
+
+			.lunaImageMobile {
+				position: absolute;
+				right: -20px;
 				bottom: 1px;
+				display: block;
 				width: 220px;
 				height: 237px;
 			}
