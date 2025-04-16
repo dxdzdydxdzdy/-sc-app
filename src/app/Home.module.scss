@@ -371,6 +371,8 @@
 
 .marquee {
 	margin-bottom: 100px;
+	@media (max-width: 660px) {
+	}
 }
 
 .servicesContainer {

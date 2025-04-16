@@ -9,6 +9,27 @@
 	position: absolute;
 	left: 0;
 	right: 0;
+
+	@media (max-width: 660px) {
+		height: 41px;
+		.container {
+			column-gap: 17px;
+		}
+
+		.element {
+			column-gap: 7px;
+			min-width: 370px;
+
+			p {
+				padding-top: 3px;
+				font-size: 15px;
+			}
+			.ten {
+				width: 42px;
+				height: 16px;
+			}
+		}
+	}
 }
 
 .container {

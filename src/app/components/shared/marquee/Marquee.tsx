@@ -9,7 +9,13 @@ const Marquee = () => {
 			<div className={styles.container}>
 				{items.map((_, index) => (
 					<div key={index} className={styles.element}>
-						<Image width={78} height={49} alt='10%' src='/ten.svg' />
+						<Image
+							width={78}
+							height={49}
+							alt='10%'
+							src='/ten.svg'
+							className={styles.ten}
+						/>
 						<p>СКИДКА НА ПЕРВЫЙ ЗАКАЗ ИЗ КИТАЯ*</p>
 					</div>
 				))}
