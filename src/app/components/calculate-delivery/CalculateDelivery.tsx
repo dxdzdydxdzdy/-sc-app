@@ -49,6 +49,7 @@ const CalculateDelivery = () => {
 					height={49}
 					alt='Калькулятор'
 					src={'/calculator.svg'}
+					className={styles.calculator}
 				/>
 				<h3>
 					Расчет стоимости доставки

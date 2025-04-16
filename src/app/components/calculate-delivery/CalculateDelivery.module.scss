@@ -165,4 +165,95 @@
 			}
 		}
 	}
+	@media (max-width: 660px) {
+		width: 375px;
+		max-height: 464px;
+		height: 520px;
+		padding: 21px 27px;
+
+		.calculator {
+			width: 24px;
+			height: 27px;
+			object-fit: fill;
+		}
+
+		.header {
+			column-gap: 9px;
+			margin-bottom: 20px;
+
+			h3 {
+				font-size: 14px;
+				line-height: 15px;
+				letter-spacing: 0.7px;
+			}
+		}
+
+		.deliveryType {
+			.deliveryTypeHeader {
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+		}
+
+		.types {
+			.typesItem {
+				padding: 10px 14px 13px 10px;
+				column-gap: 11px;
+				width: 160px;
+				margin-bottom: 20px;
+
+				p {
+					line-height: 15px;
+				}
+
+				.label {
+					font-size: 20px;
+				}
+				.subLabel {
+					font-size: 17px;
+				}
+				.railwayLabel {
+					font-size: 30px;
+				}
+			}
+		}
+		.measurements {
+			column-gap: 29px;
+			margin-bottom: 13px;
+
+			label {
+				font-size: 20px;
+			}
+
+			input {
+				margin-top: 10px;
+				height: 52px;
+				width: 262px;
+				padding: 21px 15px;
+				font-size: 15px;
+			}
+		}
+
+		.total {
+			h4 {
+				font-size: 20px;
+				margin-bottom: 9px;
+			}
+			.content {
+				column-gap: 6px;
+
+				p {
+					font-size: 15px;
+				}
+			}
+			.submit {
+				row-gap: 7px;
+
+				h5 {
+					font-size: 15px;
+					width: 193px;
+				}
+			}
+		}
+	}
 }
