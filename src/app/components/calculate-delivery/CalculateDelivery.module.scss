@@ -6,6 +6,9 @@
 	border-radius: 5px;
 	padding: 21px 27px;
 
+	.calculatorMobile {
+		display: none;
+	}
 	.header {
 		display: flex;
 		flex-direction: row;
@@ -172,9 +175,10 @@
 		padding: 21px 27px;
 
 		.calculator {
-			width: 24px;
-			height: 27px;
-			object-fit: fill;
+			display: none;
+		}
+		.calculatorMobile {
+			display: block;
 		}
 
 		.header {

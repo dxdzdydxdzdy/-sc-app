@@ -51,6 +51,13 @@ const CalculateDelivery = () => {
 					src={'/calculator.svg'}
 					className={styles.calculator}
 				/>
+				<Image
+					width={24}
+					height={27}
+					alt='Калькулятор'
+					src={'/calculatorMobile.svg'}
+					className={styles.calculatorMobile}
+				/>
 				<h3>
 					Расчет стоимости доставки
 					<br /> <span>из Китая</span>
