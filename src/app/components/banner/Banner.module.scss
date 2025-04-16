@@ -55,4 +55,23 @@
 			display: block;
 		}
 	}
+	@media (max-width: 660px) {
+		width: 375px;
+		height: 66px;
+		padding: 7px 0 0 15px;
+
+		p {
+			width: 240px;
+			font-size: 12px;
+		}
+		.percent {
+			display: none;
+		}
+		.percentLess {
+			display: block;
+		}
+		br {
+			display: block;
+		}
+	}
 }

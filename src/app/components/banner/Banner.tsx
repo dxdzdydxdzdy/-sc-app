@@ -7,7 +7,8 @@ const Banner = () => {
 		<div className={styles.container}>
 			<Link href={'/'}>
 				<p>
-					ЗАКАЗЫВАЙТЕ НАПРЯМУЮ ИЗ КИТАЯ <b>СО СКИДКОЙ 10% НА ПЕРВУЮ ПОКУПКУ</b>
+					ЗАКАЗЫВАЙТЕ НАПРЯМУЮ ОПТОМ ИЗ КИТАЯ{' '}
+					<b>СО СКИДКОЙ 10% НА ПЕРВУЮ ПОКУПКУ</b>
 				</p>
 				<Image
 					src={'/percentBanner.svg'}

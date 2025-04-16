@@ -44,7 +44,7 @@ const TextLuna = () => {
 				<Image
 					width={349}
 					height={380}
-					src={'/lunaHome.svg'}
+					src={'/lunaHome.webp'}
 					alt='Луна'
 					className={styles.lunaImageDesktop}
 				/>
