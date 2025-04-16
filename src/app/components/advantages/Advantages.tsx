@@ -92,6 +92,7 @@ const Advantages = () => {
 								alt={advantage.label}
 								width={66}
 								height={66}
+								className={styles.iconItem}
 							/>
 						</div>
 						<div className={styles.textWrapper}>
