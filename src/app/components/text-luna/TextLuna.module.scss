@@ -86,3 +86,56 @@
 		}
 	}
 }
+
+@media (max-width: 660px) {
+	.container {
+		width: 375px;
+		height: 266px;
+
+		.dialogContainer1 {
+			.dialog1 {
+				width: 239px;
+				height: 74px;
+			}
+			p {
+				top: 8px;
+				left: 10px;
+				font-size: 15px;
+				line-height: 20px;
+			}
+		}
+		.dialogContainer2 {
+			.dialog2 {
+				width: 187px;
+				height: 52px;
+			}
+			p {
+				top: 10px;
+				left: 10px;
+				font-size: 12px;
+				line-height: 18px;
+			}
+		}
+		.dialogContainer3 {
+			.lunaImage {
+				right: -10px;
+				bottom: 1px;
+				width: 220px;
+				height: 237px;
+			}
+
+			.link {
+				border-radius: 5px;
+				top: 20px;
+				left: 27px;
+
+				height: 40px;
+				width: 144px;
+				font-size: 12px;
+				white-space: nowrap;
+
+				padding: 12px 0 0 24px;
+			}
+		}
+	}
+}

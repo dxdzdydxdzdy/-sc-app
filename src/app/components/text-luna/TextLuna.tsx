@@ -11,7 +11,7 @@ const TextLuna = () => {
 					height={129}
 					src={'/dialog1.svg'}
 					alt='диалог'
-					className={styles.dialog}
+					className={`${styles.dialog} ${styles.dialog1}`}
 				/>
 				<p>
 					<span>Привет!</span>
@@ -27,7 +27,7 @@ const TextLuna = () => {
 					height={90}
 					src={'/dialog2.svg'}
 					alt='диалог'
-					className={styles.dialog}
+					className={`${styles.dialog} ${styles.dialog2}`}
 				/>
 				<p>
 					Напишите мне и я отвечу <br /> в течение <span>10 минут</span>
@@ -39,7 +39,7 @@ const TextLuna = () => {
 					height={129}
 					src={'/dialog3.svg'}
 					alt='диалог'
-					className={styles.dialog}
+					className={`${styles.dialog} ${styles.dialog3}`}
 				/>
 				<Image
 					width={349}

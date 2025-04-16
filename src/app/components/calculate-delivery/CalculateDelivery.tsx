@@ -180,10 +180,3 @@ const CalculateDelivery = () => {
 }
 
 export default CalculateDelivery
-{
-	/* <div className={styles.footer}>
-	<p>
-		Сделаем все за вас - от поиска поставщика до продвижения на маркетплейсах
-	</p>
-</div> */
-}
