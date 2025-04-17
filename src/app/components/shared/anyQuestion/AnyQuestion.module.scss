@@ -39,6 +39,49 @@
 			width: 100%;
 		}
 	}
+	@media (max-width: 660px) {
+		width: 375px;
+		padding: 19px 15px;
+		.left {
+			h5 {
+				font-size: 20px;
+				margin-bottom: 14px;
+			}
+			p {
+				font-size: 10px;
+				line-height: 15px;
+				.br {
+					display: none;
+				}
+			}
+			button {
+				height: 51px;
+			}
+		}
+		.right {
+			.form {
+				margin-bottom: 0px;
+				font-size: 20px;
+			}
+		}
+
+		.input {
+			padding: 18px 21px;
+			height: 51px;
+		}
+
+		.inputNum {
+			padding: 17px 21px 18px 70px;
+			height: 51px;
+		}
+
+		.number {
+			column-gap: 3px;
+			left: 21px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
 }
 .form {
 	display: flex;
