@@ -6,7 +6,7 @@ const managementData = [
 		name: 'Клим',
 		position: 'Генеральный директор компании в России',
 		responsibleFor: 'Развивает компанию',
-		photoSrc: '/managementKlim.svg',
+		photoSrc: '/managementKlim.webp',
 		country: 'rus',
 	},
 	{
