@@ -130,10 +130,10 @@ export default function Home() {
 				<Advantages />
 			</section>
 			<section>
-				<AnyQuestion />
+				<AboutCompany />
 			</section>
 			<section>
-				<AboutCompany />
+				<AnyQuestion />
 			</section>
 			<section>
 				<Management />
