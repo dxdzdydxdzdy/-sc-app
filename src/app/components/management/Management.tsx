@@ -4,27 +4,31 @@ import styles from './Management.module.scss'
 const managementData = [
 	{
 		name: 'Клим',
-		position: 'Генеральный директор компании',
+		position: 'Генеральный директор компании в России',
 		responsibleFor: 'Развивает компанию',
 		photoSrc: '/managementKlim.svg',
+		country: 'rus',
 	},
 	{
 		name: 'Хаоян',
-		position: 'Генеральный директор компании',
+		position: 'Генеральный директор компании в Китае',
 		responsibleFor: 'Носитель китайского языка',
 		photoSrc: '/managementKhaoyan.svg',
+		country: 'chi',
 	},
 	{
 		name: 'Максим',
-		position: 'Директор',
+		position: 'Исполнительный директор в России',
 		responsibleFor: 'Контролирует поставки',
 		photoSrc: '/managementMaxim.svg',
+		country: 'rus',
 	},
 	{
-		name: 'Даниил',
-		position: 'Руководитель отдела по работе с маркетплейсами',
-		responsibleFor: 'Заботится о ваших продажах',
-		photoSrc: '/managementDaniil.svg',
+		name: 'Кэйтси',
+		position: 'Исполнительный директор в Китае',
+		responsibleFor: 'Контролирует склады в Китае',
+		photoSrc: '/managementKeitsy.svg',
+		country: 'chi',
 	},
 ]
 
