@@ -9,7 +9,13 @@ const Rating = () => {
 			<div className={styles.rating}>
 				<div className={styles.ratingItem}>
 					<div className={styles.header}>
-						<Image width={38} height={49} alt='' src={'/ratingY.svg'} />
+						<Image
+							width={38}
+							height={49}
+							alt=''
+							src={'/ratingY.webp'}
+							className={styles.yandex}
+						/>
 						<p className={styles.label}>Яндекс Карты</p>
 					</div>
 					<div className={styles.content}>
@@ -22,24 +28,42 @@ const Rating = () => {
 				</div>
 				<div className={styles.ratingItem}>
 					<div className={styles.header}>
-						<Image width={43} height={43} alt='' src={'/rating2gis.svg'} />
+						<Image
+							width={43}
+							height={43}
+							alt=''
+							src={'/rating2gis.webp'}
+							className={styles.gis}
+						/>
 						<p className={styles.label}>2ГИС</p>
 					</div>
 					<div className={styles.content}>
-						<span>5,0</span>
+						<span className={styles.span}>5,0</span>
 						<div className={styles.stars}>
-							<Image width={165} height={37} alt='' src={'/ratingStars.svg'} />
+							<Image
+								width={165}
+								height={37}
+								alt=''
+								src={'/ratingStars.svg'}
+								className={styles.starsImage}
+							/>
 							<p>более 30 довольных клиентов</p>
 						</div>
 					</div>
 				</div>
 				<div className={styles.ratingItemOtzovik}>
 					<div className={styles.headerOtzovik}>
-						<Image width={38} height={49} alt='' src={'/ratingOtzovik.svg'} />
+						<Image
+							width={38}
+							height={49}
+							alt=''
+							src={'/ratingOtzovik.webp'}
+							className={styles.otzovik}
+						/>
 						<p className={styles.label}>Отзовик</p>
 					</div>
 					<div className={styles.content}>
-						<span>4,7</span>
+						<span className={styles.span}>4,7</span>
 					</div>
 				</div>
 			</div>

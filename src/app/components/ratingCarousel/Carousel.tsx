@@ -96,7 +96,7 @@ export default function EasyCarousel() {
 				{data.map((item, index) => (
 					<div key={index} className={styles.item}>
 						<div className={styles.itemTop}>
-							<div style={{ width: 60, height: 60 }}>
+							<div className={styles.itemServiceImgContainer}>
 								<Image
 									src={item.fromImg}
 									alt={item.from}

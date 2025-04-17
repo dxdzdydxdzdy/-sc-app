@@ -24,7 +24,10 @@
 	column-gap: 20px;
 	margin-bottom: 30px;
 }
-
+.itemServiceImgContainer {
+	width: 60px;
+	height: 60px;
+}
 .itemServiceImg {
 	width: 60px;
 	height: 60px;
@@ -49,4 +52,43 @@
 	flex-direction: column;
 
 	justify-content: start;
+}
+
+@media (max-width: 660px) {
+	.container {
+		width: 375px;
+	}
+
+	.item {
+		height: 250px;
+		margin: 0;
+		border-radius: 10px;
+		padding: 15px;
+	}
+	.itemTop {
+		column-gap: 10px;
+		margin-bottom: 10px;
+	}
+	.itemServiceImgContainer {
+		width: 40px;
+		height: 40px;
+	}
+	.itemServiceImg {
+		width: 40px;
+		height: 40px;
+	}
+
+	.itemText {
+		text-align: left;
+		font-size: 12px;
+	}
+	.itemName {
+		text-align: left;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.itemServiceName {
+		font-size: 12px;
+	}
 }
