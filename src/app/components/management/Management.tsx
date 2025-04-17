@@ -46,6 +46,13 @@ const Management = () => {
 							height={276}
 							className={styles.photo}
 						/>
+						<Image
+							src={person.country === 'rus' ? '/flag-rus.svg' : '/flag-chi.svg'}
+							alt={`Флаг ${person.country}`}
+							width={39}
+							height={25}
+							className={styles.flag}
+						/>
 						<div className={styles.info}>
 							<h3>{person.name}</h3>
 							<p className={styles.position}>{person.position}</p>
