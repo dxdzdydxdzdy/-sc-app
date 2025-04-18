@@ -54,10 +54,10 @@ const Header = () => {
 								</li>
 							</ul>
 							<div className={styles.socials}>
-								<Link href='/'>
+								<Link href='https://vk.com/sellerchina' target='blank'>
 									<Image src='vk.svg' alt='vk' width={22} height={13} />
 								</Link>
-								<Link href='/'>
+								<Link href='https://t.me/sellerchina_official' target='blank'>
 									<Image src='tg.svg' alt='tg' width={14} height={13} />
 								</Link>
 								<Link href='/'>
