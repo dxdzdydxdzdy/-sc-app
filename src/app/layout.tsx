@@ -39,7 +39,7 @@ export default function RootLayout({
 				<meta name='apple-mobile-web-app-title' content='SellerChina' />
 				<meta
 					property='og:image'
-					content='https://sc-app-git-master-dxdzdydxdzdys-projects.vercel.app/og-preview.png'
+					content='https://sc-app-mu.vercel.app/og-preview.png'
 				/>
 				<meta
 					property='og:title'
