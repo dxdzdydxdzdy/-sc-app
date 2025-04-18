@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 			'Карго и белая доставка с полным сопровождением. Рассчитайте стоимость онлайн.',
 		images: [
 			{
-				url: 'https://storetail.ru/og-preview.png',
+				url: 'https://sc-app-git-master-dxdzdydxdzdys-projects.vercel.app//og-preview.png',
 				width: 1200,
 				height: 630,
 				alt: 'Storetail — доставка из Китая',
