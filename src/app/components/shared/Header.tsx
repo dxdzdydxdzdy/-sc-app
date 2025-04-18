@@ -41,11 +41,11 @@ const Header = () => {
 						<div className={styles.contacts}>
 							<ul>
 								<li>
-									<Image src='/phone.svg' alt='phone' width={10} height={10} />
+									<Image src='/phone.svg' alt='phone' width={12} height={10} />
 									<p>8 (800) 222-90-69</p>
 								</li>
 								<li>
-									<Image src='/mail.svg' alt='mail' width={10} height={5} />
+									<Image src='/mail.svg' alt='mail' width={10} height={10} />
 									<p>support@sellerchina.ru</p>
 								</li>
 								<li>
