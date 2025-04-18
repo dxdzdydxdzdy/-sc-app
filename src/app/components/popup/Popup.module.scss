@@ -6,6 +6,116 @@
 	text-align: center;
 	padding: 49px 42px 39px;
 	border-radius: 15px;
+	z-index: 880;
+
+	@media (max-width: 1260px) {
+		width: 400px;
+		padding: 20px;
+		border-radius: 15px;
+		z-index: 880;
+
+		.h2 {
+			font-size: 20px;
+			margin-bottom: 4px;
+		}
+
+		.p {
+			margin-bottom: 20px;
+			font-size: 14px;
+		}
+
+		.form {
+			row-gap: 10px;
+			margin-bottom: 10px;
+		}
+
+		.input {
+			padding: 10px;
+		}
+
+		.inputNum {
+			padding: 10px;
+			padding-left: 62px;
+		}
+
+		.number {
+			column-gap: 3px;
+			left: 21px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.tglink::after {
+			height: 2px;
+		}
+
+		.text1 {
+			margin-bottom: 4px;
+			font-size: 16px;
+		}
+		.text2 {
+			font-size: 16px;
+		}
+		.button {
+			height: 45px;
+			font-size: 18px;
+			padding: 0;
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		padding: 20px;
+		border-radius: 15px;
+		z-index: 880;
+
+		.h2 {
+			font-size: 20px;
+			margin-bottom: 4px;
+		}
+
+		.p {
+			margin-bottom: 20px;
+			font-size: 14px;
+		}
+
+		.form {
+			row-gap: 10px;
+			margin-bottom: 10px;
+		}
+
+		.input {
+			padding: 10px;
+		}
+
+		.inputNum {
+			padding: 10px;
+			padding-left: 62px;
+		}
+
+		.number {
+			column-gap: 3px;
+			left: 21px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.tglink::after {
+			height: 2px;
+		}
+
+		.text1 {
+			margin-bottom: 4px;
+			font-size: 16px;
+		}
+		.text2 {
+			font-size: 16px;
+		}
+		.button {
+			height: 45px;
+			font-size: 18px;
+			padding: 0;
+		}
+	}
 }
 
 .h2 {
@@ -50,7 +160,7 @@
 	flex-direction: row;
 	column-gap: 3px;
 	position: absolute;
-	left: 21px; /* left-3 */
+	left: 21px;
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -78,4 +188,23 @@
 }
 .text2 {
 	font-size: 20px;
+}
+.button {
+	color: #353535;
+	height: 49px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Montserrat';
+	background-color: #febd6d;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 12px 48px 13px 48px;
+	box-shadow: 0px 2px 0px #d4974b;
+	transition: all 0.1s;
+}
+
+.button:active {
+	box-shadow: 0px 0px 0px #d4974b;
+	position: relative;
 }

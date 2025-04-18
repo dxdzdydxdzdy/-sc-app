@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import Button from '../ui/Button/Button'
 import styles from './Popup.module.scss'
 
 const formatPhone = (value: string) => {
@@ -77,8 +76,9 @@ const Popup = () => {
 						<p>+7</p>
 					</div>
 				</div>
-
-				<Button>Отправить</Button>
+				<button type='submit' className={styles.button}>
+					Отправить
+				</button>
 			</form>
 			<p className={styles.text1}>
 				А еще у нас есть{' '}

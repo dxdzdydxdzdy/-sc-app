@@ -143,7 +143,6 @@
 			.content3 {
 				width: 57px;
 				height: 42px;
-				image-rendering: crisp-edges;
 			}
 			.line1 {
 				width: 17px;
@@ -287,6 +286,12 @@
 		align-items: end;
 		column-gap: 5px;
 		padding-bottom: 33px;
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
 
 		p {
 			margin-top: 15px;
