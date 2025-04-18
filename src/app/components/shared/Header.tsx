@@ -89,7 +89,7 @@ const Header = () => {
 							<Image src='tg.svg' alt='tg' width={14} height={13} />
 						</Link>
 						<Link href='/'>
-							<Image src='wu.svg' alt='whatsapp' width={17} height={17} />
+							<Image src='wu.webp' alt='whatsapp' width={17} height={17} />
 						</Link>
 					</div>
 					<button
