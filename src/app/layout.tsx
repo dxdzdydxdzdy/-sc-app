@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 				url: 'https://sc-app-git-master-dxdzdydxdzdys-projects.vercel.app//og-preview.png',
 				width: 1200,
 				height: 630,
-				alt: 'Storetail — доставка из Китая',
+				alt: 'SellerChina — доставка из Китая',
 			},
 		],
 	},
@@ -37,6 +37,18 @@ export default function RootLayout({
 		<html lang='ru'>
 			<head>
 				<meta name='apple-mobile-web-app-title' content='SellerChina' />
+				<meta
+					property='og:image'
+					content='https://sc-app-git-master-dxdzdydxdzdys-projects.vercel.app/og-preview.png'
+				/>
+				<meta
+					property='og:title'
+					content='Доставка из Китая — быстро и просто'
+				/>
+				<meta
+					property='og:description'
+					content='Карго и белая доставка с полным сопровождением. Рассчитайте стоимость онлайн.'
+				/>
 			</head>
 			<body className={`${montserrat.variable} antialiased`}>
 				<Header />
