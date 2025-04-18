@@ -6,7 +6,13 @@ import { useState } from 'react'
 import styles from './Popup.module.scss'
 
 const formatPhone = (value: string) => {
-	const digits = value.replace(/\D/g, '')
+	let digits = value.replace(/\D/g, '')
+
+	if (digits.startsWith('7') && digits.length >= 11) {
+		digits = digits.substring(1)
+	} else if (digits.startsWith('8') && digits.length >= 11) {
+		digits = digits.substring(1)
+	}
 	let formatted = ''
 
 	if (digits.length > 0) {

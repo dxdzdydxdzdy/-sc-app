@@ -10,8 +10,6 @@ const formatPhone = (value: string) => {
 		digits = digits.substring(1)
 	} else if (digits.startsWith('8') && digits.length >= 11) {
 		digits = digits.substring(1)
-	} else if (digits.startsWith('9') && digits.length > 10) {
-		digits = digits.substring(digits.length - 10)
 	}
 
 	let formatted = ''
