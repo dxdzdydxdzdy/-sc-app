@@ -69,7 +69,7 @@ export default function Home() {
 								<Image
 									width={106}
 									height={76}
-									src={'/markets.svg'}
+									src={'/markets.webp'}
 									alt='Маркетплейсы'
 									className={styles.content3}
 								/>
