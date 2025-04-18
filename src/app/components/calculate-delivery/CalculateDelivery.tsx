@@ -9,22 +9,22 @@ import styles from './CalculateDelivery.module.scss'
 const deliveryTypes = [
 	{
 		key: 'standard',
-		defaultImg: '/deliveryStandard.svg',
-		selectedImg: '/deliveryStandardSelected.svg',
+		defaultImg: '/deliveryStandard.webp',
+		selectedImg: '/deliveryStandardSelected.webp',
 		label: 'Авто',
 		subLabel: 'Стандарт',
 	},
 	{
 		key: 'fast',
-		defaultImg: '/deliveryFast.svg',
-		selectedImg: '/deliveryFastSelected.svg',
+		defaultImg: '/deliveryFast.webp',
+		selectedImg: '/deliveryFastSelected.webp',
 		label: 'Авто',
 		subLabel: 'Быстрая',
 	},
 	{
 		key: 'railway',
-		defaultImg: '/deliveryJD.svg',
-		selectedImg: '/deliveryJDSelected.svg',
+		defaultImg: '/deliveryJD.webp',
+		selectedImg: '/deliveryJDSelected.webp',
 		label: 'ЖД',
 		subLabel: '',
 	},
