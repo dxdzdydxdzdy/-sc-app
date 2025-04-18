@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import PopupMobile from '../popupMobile/PopupMobile'
 import styles from './NavigationMobile.module.scss'
 
 type Props = {
@@ -53,6 +54,8 @@ const navItems = [
 
 const NavigationMobile = ({ onClose }: Props) => {
 	const [activeIndex, setActiveIndex] = useState<number | null>(null)
+
+	const [isOpen, setIsOpen] = useState(false)
 
 	const [menuVisible, setMenuVisible] = useState(false)
 
@@ -133,7 +136,10 @@ const NavigationMobile = ({ onClose }: Props) => {
 						})}
 					</ul>
 					<div className={styles.footer}>
-						<button className={styles.button}>Сделать заказ</button>
+						<button onClick={() => setIsOpen(true)} className={styles.button}>
+							Сделать заказ
+						</button>
+						{isOpen && <PopupMobile onClose={() => setIsOpen(false)} />}
 						<div className={styles.info}>
 							<ul>
 								<li>
