@@ -1,0 +1,70 @@
+.marquee {
+	height: 61px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #febd6d;
+	overflow: hidden;
+	position: relative;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-bottom: 100px;
+
+	span {
+		font-weight: 700;
+		font-size: 40px;
+		color: #353535;
+	}
+
+	@media (max-width: 660px) {
+		height: 41px;
+		.container {
+			column-gap: 17px;
+		}
+
+		.element {
+			column-gap: 7px;
+			min-width: 370px;
+
+			p {
+				padding-top: 3px;
+				font-size: 15px;
+			}
+			.ten {
+				width: 42px;
+				height: 16px;
+			}
+		}
+	}
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	column-gap: 49px;
+	animation: scroll 40s linear infinite;
+}
+
+.element {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	column-gap: 10px;
+	min-width: 510px;
+
+	p {
+		font-size: 20px;
+		font-weight: 500;
+		color: #353535;
+	}
+
+	@keyframes scroll {
+		0% {
+			transform: translateX(-30%);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+}

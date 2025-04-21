@@ -6,7 +6,7 @@ const Navigation = () => {
 			navName: 'Доставка из Китая',
 			link: '/',
 			child: [
-				{ name: 'Карго перевозки', link: '/' },
+				{ name: 'Карго перевозки', link: '/cargo-delivery' },
 				{ name: 'Белая доставка', link: '/' },
 				{ name: 'Автозапчасти', link: '/' },
 				{ name: 'Спецлиния из Китая', link: '/' },

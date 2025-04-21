@@ -1,0 +1,16 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 464px;
+	p {
+		font-weight: 500;
+		font-size: 50px;
+		color: #353535;
+		line-height: 45px;
+		span {
+			font-weight: 900;
+			color: #febd6d;
+		}
+	}
+}

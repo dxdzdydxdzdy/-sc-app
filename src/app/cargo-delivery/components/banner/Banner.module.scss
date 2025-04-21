@@ -1,0 +1,79 @@
+.container {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.imageWrapper {
+	width: 100%;
+	z-index: 0;
+}
+
+.bannerContainer {
+	position: absolute;
+	z-index: 1;
+	background-color: #fff;
+	border-radius: 10px;
+
+	width: 783px;
+	height: 503px;
+	padding: 42px 40px;
+
+	top: 50%;
+	transform: translateY(-50%);
+	left: 100px;
+
+	h1 {
+		font-size: 60px;
+		font-weight: 600;
+		line-height: 70px;
+		margin-bottom: 30px;
+
+		color: #353535;
+	}
+
+	span {
+		color: #febd6d;
+		font-weight: 700;
+		font-size: 100px;
+		line-height: 70px;
+	}
+
+	p {
+		width: 523px;
+		font-weight: 500;
+		font-size: 20px;
+		margin-bottom: 33px;
+		margin-top: 34px;
+		line-height: 25px;
+
+		color: #353535;
+	}
+
+	.buttons {
+		display: flex;
+		flex-direction: row;
+		column-gap: 63px;
+
+		color: #353535;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	.buttonLeft {
+		background-color: #febd6d;
+		width: 346px;
+		height: 56px;
+
+		box-shadow: 0px 2px 0px #d4974b;
+		border-radius: 5px;
+		transition: all 0.3s ease;
+	}
+	.buttonLeft:active {
+		box-shadow: 0px 0px 0px #d4974b;
+		position: relative;
+	}
+	.buttonRight {
+	}
+}
