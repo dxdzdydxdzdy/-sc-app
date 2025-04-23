@@ -22,7 +22,7 @@ const Services = () => {
 			subLabel: 'Выгодные тарифы',
 			icon: CargoIcon,
 			hovered: HoveredCargoIcon,
-			link: '/',
+			link: '/cargo-delivery',
 		},
 		{
 			labelTop: 'ВЫКУП',

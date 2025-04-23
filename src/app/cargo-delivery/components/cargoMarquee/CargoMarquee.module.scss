@@ -18,22 +18,21 @@
 	}
 
 	@media (max-width: 660px) {
-		height: 41px;
+		height: 35px;
 		.container {
-			column-gap: 17px;
+			column-gap: 40px;
 		}
 
 		.element {
 			column-gap: 7px;
-			min-width: 370px;
+			min-width: 280px;
 
 			p {
-				padding-top: 3px;
-				font-size: 15px;
+				padding-top: 0px;
+				font-size: 10px;
 			}
-			.ten {
-				width: 42px;
-				height: 16px;
+			span {
+				font-size: 30px;
 			}
 		}
 	}
