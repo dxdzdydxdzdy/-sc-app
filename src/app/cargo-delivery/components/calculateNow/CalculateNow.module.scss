@@ -13,4 +13,16 @@
 			color: #febd6d;
 		}
 	}
+	@media (max-width: 1000px) {
+		height: fit-content;
+		.image {
+			display: none;
+		}
+	}
+	@media (max-width: 660px) {
+		p {
+			font-size: 29px;
+			line-height: 33px;
+		}
+	}
 }

@@ -12,6 +12,7 @@ const CalculateNow = () => {
 				height={270}
 				alt='Грузовик'
 				src={'/cargo-delivery/calculateTruck.webp'}
+				className={styles.image}
 			/>
 		</div>
 	)

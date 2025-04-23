@@ -1,4 +1,5 @@
 import Banner from './components/banner/Banner'
+import CargoCalculate from './components/cargoCalculate/CargoCalculate'
 import CargoMarquee from './components/cargoMarquee/CargoMarquee'
 import FullCycle from './components/fullCycle/FullCycle'
 
@@ -14,10 +15,10 @@ const page = () => {
 			<section aria-label='Полный цикл от Китая до продаж'>
 				<FullCycle />
 			</section>
-			{/* <section>
+			<section>
 				<CargoCalculate />
 			</section>
-			<section>
+			{/* <section>
 				<CargoSuppliers />
 			</section>
 			<section aria-label='Почему мы'>
