@@ -38,7 +38,7 @@ const Services = () => {
 			subLabel: 'Привезем товар со всеми документами',
 			icon: WhiteDeliveryIcon,
 			hovered: HoveredWhiteDeliveryIcon,
-			link: '/',
+			link: '/white-delivery',
 		},
 		{
 			labelTop: 'ПОИСК',

@@ -1,0 +1,55 @@
+.container {
+	width: 1247px;
+	margin-bottom: 100px;
+
+	h2 {
+		font-weight: 600;
+		font-size: 50px;
+		color: #353535;
+		margin-bottom: 38px;
+		line-height: 61px;
+	}
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+	width: 280px;
+	height: 230px;
+	background-color: #febd6d;
+	border-radius: 10px;
+	padding: 30px 15px 0 15px;
+}
+
+.label {
+	font-weight: 600;
+	font-size: 20px;
+	color: #353535;
+	margin-bottom: 20px;
+}
+
+.cardContent {
+	width: 250px;
+	height: 180px;
+	background-color: #353535;
+	border-radius: 10px;
+	padding: 21px 25px;
+}
+.icon {
+	margin-bottom: 15px;
+}
+.text {
+	font-size: 15px;
+	color: #fff;
+	font-weight: 600;
+	line-height: 18px;
+}
+.subText {
+	font-size: 15px;
+	color: #fff;
+	font-weight: 400;
+	line-height: 18px;
+}

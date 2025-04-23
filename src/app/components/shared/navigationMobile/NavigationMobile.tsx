@@ -14,7 +14,7 @@ const navItems = [
 		link: '/',
 		child: [
 			{ name: 'Карго перевозки', link: '/cargo-delivery' },
-			{ name: 'Белая доставка', link: '/' },
+			{ name: 'Белая доставка', link: '/white-delivery' },
 			{ name: 'Автозапчасти', link: '/' },
 			{ name: 'Спецлиния из Китая', link: '/' },
 		],
@@ -32,7 +32,7 @@ const navItems = [
 		navName: 'Для селлеров',
 		link: 'https://storetail.ru/',
 		child: [
-			{ name: 'Фулфилмент', link: '/' },
+			{ name: 'Фулфилмент', link: 'https://sellff.ru/' },
 			{ name: 'Подбор товара', link: '/' },
 			{ name: 'Продвижение товара', link: '/' },
 		],
