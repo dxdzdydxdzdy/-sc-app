@@ -13,7 +13,7 @@ const navItems = [
 		navName: 'Доставка из Китая',
 		link: '/',
 		child: [
-			{ name: 'Карго перевозки', link: '/' },
+			{ name: 'Карго перевозки', link: '/cargo-delivery' },
 			{ name: 'Белая доставка', link: '/' },
 			{ name: 'Автозапчасти', link: '/' },
 			{ name: 'Спецлиния из Китая', link: '/' },
@@ -78,12 +78,14 @@ const NavigationMobile = ({ onClose }: Props) => {
 		>
 			<div className={styles.menu}>
 				<div className={styles.header}>
-					<Image
-						src={'/logoMobileMenu.svg'}
-						width={138}
-						height={36}
-						alt='logo'
-					/>
+					<Link href={'/'} onClick={handleClose}>
+						<Image
+							src={'/logoMobileMenu.svg'}
+							width={138}
+							height={36}
+							alt='logo'
+						/>
+					</Link>
 					<button onClick={handleClose}>
 						<Image src={'/closeMenu.svg'} width={24} height={24} alt='close' />
 					</button>
@@ -126,7 +128,9 @@ const NavigationMobile = ({ onClose }: Props) => {
 											<span className={styles.verticalLine} aria-hidden></span>
 											{item.child.map((child, i) => (
 												<li key={i}>
-													<Link href={child.link}>{child.name}</Link>
+													<Link href={child.link} onClick={handleClose}>
+														{child.name}
+													</Link>
 												</li>
 											))}
 										</ul>
