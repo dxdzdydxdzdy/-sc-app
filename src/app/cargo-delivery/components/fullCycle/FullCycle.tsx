@@ -41,6 +41,13 @@ const FullCycle = () => {
 					src={'/cargo-delivery/markets.webp'}
 					className={styles.markets}
 				/>
+				<Image
+					width={136}
+					height={99}
+					alt='markets'
+					src={'/cargo-delivery/marketsSplit.webp'}
+					className={styles.marketsMobile}
+				/>
 			</div>
 			<div className={styles.info}>
 				<p className={styles.infoTop}>

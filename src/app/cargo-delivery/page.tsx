@@ -1,5 +1,6 @@
 import Banner from './components/banner/Banner'
 import CargoMarquee from './components/cargoMarquee/CargoMarquee'
+import FullCycle from './components/fullCycle/FullCycle'
 
 const page = () => {
 	return (
@@ -10,10 +11,10 @@ const page = () => {
 			<section aria-label='Скидка на первый заказ'>
 				<CargoMarquee />
 			</section>
-			{/* <section aria-label='Полный цикл от Китая до продаж'>
+			<section aria-label='Полный цикл от Китая до продаж'>
 				<FullCycle />
 			</section>
-			<section>
+			{/* <section>
 				<CargoCalculate />
 			</section>
 			<section>
