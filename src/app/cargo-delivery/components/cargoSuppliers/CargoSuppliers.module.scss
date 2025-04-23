@@ -1,0 +1,62 @@
+.container {
+	width: 1247px;
+	margin-bottom: 100px;
+
+	h2 {
+		font-weight: 600;
+		font-size: 50px;
+		color: #353535;
+		line-height: 61px;
+		margin-bottom: 16px;
+	}
+	.header {
+		font-weight: 500;
+		font-size: 20px;
+		color: #353535;
+		line-height: 24px;
+		margin-bottom: 47px;
+	}
+	.sellerChinaLink {
+		font-weight: 700;
+		color: #febd6d;
+		border-bottom: 1px solid #febd6d;
+	}
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+	h3 {
+		font-weight: 700;
+		font-size: 20px;
+		color: #353535;
+		line-height: 24px;
+		margin-bottom: 9px;
+	}
+	.imageWrapper {
+		height: 106px;
+		width: 280px;
+		margin-bottom: 9px;
+
+		overflow: hidden;
+		justify-content: center;
+	}
+	.button {
+		margin-bottom: 9px;
+		border-radius: 10px;
+		background-color: #353535;
+		color: #fff;
+		font-size: 15px;
+		font-weight: 700;
+		line-height: 18px;
+		width: 280px;
+		height: 52px;
+		transition: all 0.3s ease;
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+}

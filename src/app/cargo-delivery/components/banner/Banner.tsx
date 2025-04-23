@@ -11,6 +11,7 @@ const Banner = () => {
 					alt='Баннер'
 					width={2008}
 					height={567}
+					className={styles.image}
 				/>
 			</div>
 

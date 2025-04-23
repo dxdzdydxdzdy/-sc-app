@@ -1,0 +1,42 @@
+.container {
+	width: 1247px;
+	margin-bottom: 26px;
+
+	h2 {
+		font-size: 50px;
+		font-weight: 600;
+		line-height: 64px;
+		color: #353535;
+		margin-bottom: 20px;
+	}
+
+	.banner {
+		color: #fff;
+		background-color: #353535;
+		position: relative;
+
+		padding: 33px 34px;
+		min-height: 301px;
+
+		border-radius: 10px;
+		.text {
+			width: 620px;
+		}
+		h3 {
+			font-size: 30px;
+			font-weight: 600;
+			margin-bottom: 48px;
+		}
+		p {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 24px;
+		}
+	}
+}
+
+.image {
+	position: absolute;
+	top: 0;
+	right: 0;
+}

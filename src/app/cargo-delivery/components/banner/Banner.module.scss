@@ -4,6 +4,128 @@
 	display: flex;
 	justify-content: center;
 	position: relative;
+	@media (max-width: 1420px) {
+		.bannerContainer {
+			width: 543px;
+			height: 323px;
+			padding: 22px 20px;
+
+			h1 {
+				font-size: 40px;
+				line-height: 50px;
+				margin-bottom: 10px;
+			}
+
+			span {
+				font-size: 50px;
+				line-height: 50px;
+			}
+
+			p {
+				width: 523px;
+				font-size: 15px;
+				margin-bottom: 13px;
+				margin-top: 14px;
+				line-height: 25px;
+			}
+
+			.buttons {
+				column-gap: 23px;
+				font-size: 15px;
+			}
+			.buttonLeft {
+				width: 250px;
+				height: 36px;
+			}
+		}
+	}
+	@media (max-width: 1030px) {
+		.bannerContainer {
+			width: 343px;
+			height: 243px;
+			padding: 15px;
+			left: 50px;
+
+			h1 {
+				font-size: 24px;
+				line-height: 30px;
+				margin-bottom: 10px;
+			}
+
+			span {
+				font-size: 40px;
+				line-height: 40px;
+			}
+
+			p {
+				width: 300px;
+				font-size: 13px;
+				margin-bottom: 13px;
+				margin-top: 10px;
+				line-height: 15px;
+			}
+
+			.buttons {
+				column-gap: 10px;
+				font-size: 12px;
+			}
+			.buttonLeft {
+				width: 160px;
+				height: 30px;
+			}
+		}
+	}
+	@media (max-width: 660px) {
+		margin-top: 20px;
+		height: 400px;
+		.imageWrapper {
+			width: 100%;
+			z-index: 0;
+			overflow: hidden;
+		}
+		.image {
+			height: 500px;
+			object-fit: cover;
+			object-position: 80% bottom;
+		}
+
+		.bannerContainer {
+			width: 341px;
+			height: 218px;
+			padding: 15px;
+			top: 153px;
+			left: 10px;
+			transform: translateY(-50%);
+
+			h1 {
+				font-size: 24px;
+				line-height: 30px;
+				margin-bottom: 0;
+			}
+
+			span {
+				font-size: 40px;
+				line-height: 40px;
+			}
+
+			p {
+				width: 252;
+				font-size: 10px;
+				margin-bottom: 13px;
+				margin-top: 4px;
+				line-height: 15px;
+			}
+
+			.buttons {
+				column-gap: 10px;
+				font-size: 12px;
+			}
+			.buttonLeft {
+				width: 160px;
+				height: 30px;
+			}
+		}
+	}
 }
 
 .imageWrapper {
@@ -73,7 +195,5 @@
 	.buttonLeft:active {
 		box-shadow: 0px 0px 0px #d4974b;
 		position: relative;
-	}
-	.buttonRight {
 	}
 }
