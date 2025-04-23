@@ -6,6 +6,7 @@ import CargoAdvantages from './components/cargoAdvantages/CargoAdvantages'
 import CargoCalculate from './components/cargoCalculate/CargoCalculate'
 import CargoMarquee from './components/cargoMarquee/CargoMarquee'
 import CargoSuppliers from './components/cargoSuppliers/CargoSuppliers'
+import CargoWhyUs from './components/cargoWhyUs/CargoWhyUs'
 import FullCycle from './components/fullCycle/FullCycle'
 
 const page = () => {
@@ -26,9 +27,9 @@ const page = () => {
 			<section>
 				<CargoSuppliers />
 			</section>
-			{/* <section aria-label='Почему мы'>
+			<section aria-label='Почему мы'>
 				<CargoWhyUs />
-			</section> */}
+			</section>
 			<section>
 				<CargoAdvantages />
 			</section>
