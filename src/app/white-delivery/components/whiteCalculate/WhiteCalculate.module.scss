@@ -1,0 +1,34 @@
+.container {
+	width: 1247px;
+	margin-bottom: 100px;
+
+	h2 {
+		font-weight: 600;
+		font-size: 50px;
+		color: #353535;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		line-height: 61px;
+	}
+}
+.subHeader {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 25px;
+
+	color: #353535;
+}
+.content {
+	background-color: #ff766e;
+	width: 1247px;
+	height: 620px;
+	border-radius: 10px;
+	text-align: center;
+	align-items: center;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+}
