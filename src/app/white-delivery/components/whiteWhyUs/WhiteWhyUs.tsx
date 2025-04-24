@@ -54,6 +54,16 @@ const WhiteWhyUs = () => {
 					</div>
 				))}
 			</div>
+			<p className={styles.sign}>
+				С <strong>SELLERCHINA</strong> вы получаете надежного партнера для
+				стабильных поставок
+			</p>
+			<div className={styles.bottom}>
+				<p className={styles.bottomSign}>
+					Узнайте, как мы оптимизируем вашу логистику!
+				</p>
+				<button className={styles.button}>Рассчитать стоимость</button>
+			</div>
 		</div>
 	)
 }
