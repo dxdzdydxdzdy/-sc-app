@@ -47,6 +47,7 @@ const WhiteWhyUs = () => {
 								height={65}
 								width={item.w}
 								className={styles.icon}
+								style={{ '--icon-width': `${item.w}px` } as React.CSSProperties}
 							/>
 							<p className={styles.text}>{item.text}</p>
 							<p className={styles.subText}>{item.subText}</p>
