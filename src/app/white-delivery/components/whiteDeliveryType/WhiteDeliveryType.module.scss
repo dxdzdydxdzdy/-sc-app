@@ -222,6 +222,12 @@
 
 		.card {
 			gap: 7px;
+			&:nth-child(4) {
+				.image {
+					width: 79px;
+					height: 94px;
+				}
+			}
 		}
 
 		.label {
