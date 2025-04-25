@@ -1,3 +1,5 @@
+import CalculateDelivery from '@/app/components/calculate-delivery/CalculateDelivery'
+import Image from 'next/image'
 import styles from './WhiteCalculate.module.scss'
 
 const WhiteCalculate = () => {
@@ -7,7 +9,16 @@ const WhiteCalculate = () => {
 			<p className={styles.subHeader}>
 				Узнайте, как доставить груз из Китая выгодно
 			</p>
-			<div className={styles.content}>НА ОБСУЖДЕНИИ</div>
+			<div className={styles.content}>
+				<Image
+					width={1208}
+					height={714}
+					alt=''
+					src={'/white-delivery/WhiteCalculate.svg'}
+					className={styles.img}
+				/>
+				<CalculateDelivery />
+			</div>
 		</div>
 	)
 }

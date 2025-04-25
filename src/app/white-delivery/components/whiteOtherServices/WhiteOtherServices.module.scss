@@ -1,0 +1,82 @@
+.container {
+	width: 1247px;
+	margin-bottom: 100px;
+
+	h2 {
+		font-weight: 600;
+		font-size: 50px;
+		line-height: 61px;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+
+		color: #353535;
+	}
+}
+
+.subHeader {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 15px;
+
+	color: #353535;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 39px;
+	position: relative;
+	margin-bottom: 14px;
+}
+.image {
+	border-radius: 5px;
+}
+
+.card {
+	padding: 19px 11px;
+	background-color: #febd6d;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 14px;
+}
+
+.cardLabel {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+
+	color: #353535;
+}
+
+.cardText {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #353535;
+}
+
+.sticker {
+	position: absolute;
+	right: 10px;
+	top: -10px;
+}
+
+.consultation {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 30px;
+
+	color: #353535;
+
+	span {
+		font-weight: 700;
+		text-decoration-line: underline;
+
+		color: #febd6d;
+	}
+}
