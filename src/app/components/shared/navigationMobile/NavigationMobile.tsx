@@ -34,7 +34,7 @@ const navItems = [
 		child: [
 			{ name: 'Фулфилмент', link: 'https://sellff.ru/' },
 			{ name: 'Подбор товара', link: '/' },
-			{ name: 'Продвижение товара', link: '/' },
+			{ name: 'Продвижение товара', link: 'https://storetail.ru/' },
 		],
 	},
 	{

@@ -7,7 +7,7 @@ const Navigation = () => {
 			link: '/',
 			child: [
 				{ name: 'Карго перевозки', link: '/cargo-delivery' },
-				{ name: 'Белая доставка', link: '/' },
+				{ name: 'Белая доставка', link: '/white-delivery' },
 				{ name: 'Автозапчасти', link: '/' },
 				{ name: 'Спецлиния из Китая', link: '/' },
 			],
@@ -25,8 +25,8 @@ const Navigation = () => {
 			navName: 'Для селлеров',
 			link: 'https://storetail.ru/',
 			child: [
-				{ name: 'Фулфилмент', link: '/' },
-				{ name: 'Подбор товара', link: '/' },
+				{ name: 'Фулфилмент', link: 'https://sellff.ru/' },
+				{ name: 'Подбор товара', link: 'https://storetail.ru/' },
 				{ name: 'Продвижение товара', link: '/' },
 			],
 		},

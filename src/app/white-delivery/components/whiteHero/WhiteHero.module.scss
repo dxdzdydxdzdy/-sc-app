@@ -16,6 +16,177 @@
 			color: #febd6d;
 		}
 	}
+	@media (max-width: 1420px) {
+		width: 1000px;
+		margin-bottom: 0px;
+		padding: 0 30px;
+
+		margin-top: 22px;
+		h1 {
+			font-size: 58px;
+			line-height: 73px;
+		}
+		.days {
+			font-size: 100px;
+			line-height: 102px;
+			margin-bottom: 45px;
+		}
+
+		.subtext {
+			font-size: 20px;
+			margin-bottom: 15px;
+			margin-top: 380px;
+		}
+
+		.btnContainer {
+			column-gap: 25px;
+
+			font-size: 20px;
+			height: 60px;
+
+			.btn1 {
+				width: 346px;
+				height: 56px;
+			}
+
+			.btn2 {
+				width: 346px;
+				height: 56px;
+				font-size: 20px;
+			}
+		}
+
+		.banner {
+			bottom: 150px;
+			right: 0px;
+			left: 30px;
+
+			width: 940px;
+			height: 313px;
+		}
+		.imageWrapper {
+			width: 631px;
+			left: 10px;
+		}
+	}
+	@media (max-width: 1000px) {
+		width: 660px;
+		padding: 0 30px;
+
+		margin-top: 22px;
+		h1 {
+			font-size: 40px;
+			line-height: 53px;
+			br {
+				display: none;
+			}
+		}
+		.days {
+			font-size: 80px;
+			line-height: 102px;
+			margin-bottom: 45px;
+		}
+
+		.subtext {
+			font-size: 20px;
+			margin-bottom: 15px;
+			margin-top: 380px;
+		}
+
+		.btnContainer {
+			column-gap: 25px;
+
+			font-size: 20px;
+			height: 60px;
+
+			.btn1 {
+				width: 346px;
+				height: 56px;
+			}
+
+			.btn2 {
+				width: 346px;
+				height: 56px;
+				font-size: 20px;
+			}
+		}
+
+		.banner {
+			bottom: 150px;
+			right: 0px;
+			left: 30px;
+
+			width: 600px;
+			height: 313px;
+		}
+		.imageWrapper {
+			width: 631px;
+			left: -20px;
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		padding: 0 3px;
+
+		margin-top: 22px;
+		margin-bottom: -80px;
+		h1 {
+			font-size: 25px;
+			line-height: 30px;
+		}
+		.days {
+			font-size: 80px;
+			line-height: 102px;
+			margin-bottom: 45px;
+			display: none;
+		}
+
+		.subtext {
+			font-size: 15px;
+			margin-bottom: 15px;
+			margin-top: 150px;
+			line-height: 15px;
+		}
+
+		.btnContainer {
+			column-gap: 25px;
+
+			font-size: 10px;
+			height: 60px;
+
+			.btn1 {
+				width: 346px;
+				height: 36px;
+
+				&:hover {
+					height: 31px;
+				}
+			}
+
+			.btn2 {
+				width: 346px;
+				height: 36px;
+				font-size: 10px;
+
+				&:hover {
+					height: 31px;
+				}
+			}
+		}
+
+		.banner {
+			bottom: 120px;
+			right: 0px;
+			left: 3px;
+
+			width: 369px;
+			height: 127px;
+		}
+		.imageWrapper {
+			width: 258px;
+			left: 50px;
+		}
+	}
 }
 
 .days {
