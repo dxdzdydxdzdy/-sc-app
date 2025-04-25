@@ -10,6 +10,236 @@
 		margin-bottom: 38px;
 		line-height: 61px;
 	}
+
+	@media (max-width: 1420px) {
+		width: 1000px;
+		padding: 0 30px;
+		margin-bottom: 100px;
+
+		h2 {
+			font-size: 50px;
+			margin-bottom: 38px;
+			line-height: 61px;
+		}
+		.manager {
+			margin-bottom: 23px;
+		}
+		.managerImage {
+			&::after {
+				width: 127px;
+				height: 4px;
+				left: 40px;
+				bottom: 0;
+			}
+		}
+
+		.rightBlock {
+			margin-left: -20px;
+		}
+
+		.speech1 {
+			font-size: 20px;
+			line-height: 20px;
+		}
+
+		.speech2 {
+			font-size: 20px;
+			line-height: 20px;
+
+			width: 798px;
+			height: 60px;
+			padding: 10px 23px 0 99px;
+
+			margin-left: -79px;
+		}
+
+		.speech3 {
+			width: 339px;
+			height: 52px;
+			font-size: 15px;
+			line-height: 18px;
+			padding: 7px 20px;
+		}
+
+		.grid {
+			grid-template-columns: repeat(4, 1fr);
+			column-gap: 20px;
+		}
+
+		.card {
+			gap: 10px;
+
+			&:nth-child(even) {
+				flex-direction: column-reverse;
+			}
+		}
+
+		.label {
+			font-size: 25px;
+			line-height: 30px;
+		}
+
+		.subLabel {
+			font-size: 20px;
+			line-height: 24px;
+		}
+
+		.imageWrapper {
+			width: 210px;
+			height: 176px;
+		}
+	}
+	@media (max-width: 1000px) {
+		width: 660px;
+		padding: 0 30px;
+		margin-bottom: 50px;
+
+		h2 {
+			font-size: 40px;
+			margin-bottom: 38px;
+			line-height: 49px;
+		}
+		.manager {
+			margin-bottom: 23px;
+		}
+		.managerImage {
+			&::after {
+				width: 127px;
+				height: 4px;
+				left: 40px;
+				bottom: 0;
+			}
+		}
+
+		.rightBlock {
+			margin-left: -20px;
+		}
+
+		.speech1 {
+			font-size: 15px;
+			line-height: 15px;
+		}
+
+		.speech2 {
+			font-size: 15px;
+			line-height: 20px;
+
+			width: 498px;
+			height: 60px;
+			padding: 10px 23px 0 99px;
+
+			margin-left: -79px;
+		}
+
+		.speech3 {
+			width: 339px;
+			height: 52px;
+			font-size: 15px;
+			line-height: 18px;
+			padding: 7px 20px;
+		}
+
+		.grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
+		}
+
+		.card {
+			gap: 10px;
+		}
+
+		.label {
+			font-size: 25px;
+			line-height: 30px;
+		}
+
+		.subLabel {
+			font-size: 20px;
+			line-height: 24px;
+		}
+
+		.imageWrapper {
+			width: 290px;
+			height: 176px;
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		padding: 0 10px;
+		margin-bottom: 50px;
+
+		h2 {
+			font-size: 25px;
+			margin-bottom: 24px;
+			line-height: 30px;
+		}
+		.manager {
+			margin-bottom: 23px;
+		}
+		.managerImage {
+			width: 122px;
+			&::after {
+				width: 81px;
+				height: 4px;
+				left: 20px;
+				bottom: 0;
+			}
+		}
+
+		.rightBlock {
+			margin-left: -20px;
+		}
+
+		.speech1 {
+			font-size: 10px;
+			line-height: 15px;
+		}
+
+		.speech2 {
+			font-size: 10px;
+			line-height: 15px;
+
+			width: 339px;
+			height: 62px;
+			padding: 10px 3px 0 139px;
+
+			margin-left: -96px;
+		}
+
+		.speech3 {
+			width: 200px;
+			height: 32px;
+			font-size: 10px;
+			line-height: 10px;
+			padding: 7px 15px;
+			margin-left: 20px;
+		}
+
+		.grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
+		}
+
+		.card {
+			gap: 7px;
+		}
+
+		.label {
+			font-size: 15px;
+			line-height: 15px;
+			margin-bottom: 5px;
+		}
+
+		.subLabel {
+			font-size: 10px;
+			line-height: 10px;
+		}
+
+		.imageWrapper {
+			width: 160px;
+			height: 101px;
+		}
+	}
 }
 
 .manager {

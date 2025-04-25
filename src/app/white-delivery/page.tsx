@@ -1,5 +1,6 @@
 import FullCycle from '../cargo-delivery/components/fullCycle/FullCycle'
 import Socials from '../components/socials/Socials'
+import WhiteDeliveryType from './components/whiteDeliveryType/WhiteDeliveryType'
 import WhiteHero from './components/whiteHero/WhiteHero'
 import WhiteWhyUs from './components/whiteWhyUs/WhiteWhyUs'
 
@@ -15,10 +16,10 @@ const page = () => {
 			<section>
 				<WhiteWhyUs />
 			</section>
-			{/* <section>
+			<section>
 				<WhiteDeliveryType />
 			</section>
-			<section>
+			{/* <section>
 				<WhiteCalculate />
 			</section>
 			<section>
