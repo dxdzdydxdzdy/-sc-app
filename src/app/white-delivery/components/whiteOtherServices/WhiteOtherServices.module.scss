@@ -11,8 +11,79 @@
 
 		color: #353535;
 	}
-}
 
+	@media (max-width: 1420px) {
+		width: 1000px;
+		padding: 0 30px;
+
+		.cardLabel {
+			height: 50px;
+		}
+	}
+
+	@media (max-width: 1000px) {
+		width: 660px;
+		padding: 0 30px;
+
+		.grid {
+			grid-template-columns: 1fr 1fr;
+			column-gap: 20px;
+			row-gap: 20px;
+		}
+		.consultation {
+			display: none;
+		}
+		.consultationGrid {
+			padding-top: 16px;
+			display: block;
+			font-weight: 500;
+			font-size: 34px;
+			line-height: 50px;
+			margin-bottom: 30px;
+
+			color: #353535;
+
+			span {
+				font-weight: 900;
+				text-decoration-line: underline;
+
+				color: #febd6d;
+			}
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		padding: 0 10px;
+		margin-bottom: 50px;
+
+		h2 {
+			font-size: 25px;
+			margin-bottom: 10px;
+			line-height: 30px;
+		}
+
+		.subHeader {
+			font-size: 15px;
+		}
+
+		.grid {
+			grid-template-columns: 1fr;
+			column-gap: 20px;
+			row-gap: 20px;
+		}
+		.consultation {
+			display: block;
+			font-size: 15px;
+			margin-bottom: 10px;
+		}
+		.consultationGrid {
+			display: none;
+		}
+	}
+}
+.consultationGrid {
+	display: none;
+}
 .subHeader {
 	font-style: normal;
 	font-weight: 700;

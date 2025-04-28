@@ -11,6 +11,154 @@
 
 		color: #353535;
 	}
+
+	@media (max-width: 1420px) {
+		width: 1000px;
+		padding: 0 30px;
+
+		.content {
+			display: flex;
+			flex-direction: row;
+			column-gap: 50px;
+		}
+
+		.left {
+			padding-top: 20px;
+			font-weight: 500;
+			font-size: 25px;
+			line-height: 31px;
+			width: 305px;
+
+			color: #353535;
+		}
+
+		.imgBell {
+			position: absolute;
+			left: -80px;
+			top: -30px;
+		}
+
+		.imgArrow {
+			position: absolute;
+			right: 50px;
+			top: -415px;
+			width: 90px;
+		}
+	}
+	@media (max-width: 1000px) {
+		width: 660px;
+		padding: 0 30px;
+
+		h2 {
+			font-size: 30px;
+			width: 580px;
+			line-height: 35px;
+			z-index: 2;
+			position: relative;
+		}
+		.subHeader {
+			font-size: 20px;
+			position: relative;
+			z-index: 2;
+			margin-bottom: 20px;
+		}
+		.content {
+			display: flex;
+			flex-direction: column;
+			column-gap: 50px;
+			row-gap: 20px;
+		}
+
+		.left {
+			padding-top: 20px;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 25px;
+			width: 355px;
+
+			color: #353535;
+		}
+
+		.imgBell {
+			position: absolute;
+			left: 350px;
+			top: -100px;
+		}
+
+		.imgArrow {
+			position: absolute;
+			right: 50px;
+			top: -405px;
+			width: 84px;
+			z-index: 1;
+		}
+
+		.rightText {
+			width: 601px;
+			height: 122px;
+			padding: 25px;
+
+			background-color: #febd6d;
+			border-radius: 10px;
+
+			font-weight: 500;
+			font-size: 20px;
+			line-height: 25px;
+
+			color: #353535;
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		padding: 0 10px;
+		margin-bottom: 50px;
+		h2 {
+			width: 355px;
+		}
+		.content {
+			display: flex;
+			flex-direction: column;
+			column-gap: 50px;
+			row-gap: 20px;
+		}
+
+		.left {
+			padding-top: 20px;
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 25px;
+			width: 355px;
+
+			color: #353535;
+		}
+
+		.imgBell {
+			position: absolute;
+			left: 250px;
+			top: 80px;
+			width: 100px;
+		}
+
+		.imgArrow {
+			position: absolute;
+			right: 10px;
+			top: -385px;
+			width: 80px;
+			z-index: 1;
+		}
+
+		.rightText {
+			width: 355px;
+			height: 122px;
+			padding: 20px;
+
+			border-radius: 10px;
+
+			font-weight: 500;
+			font-size: 15px;
+			line-height: 20px;
+		}
+	}
 }
 .subHeader {
 	font-style: normal;

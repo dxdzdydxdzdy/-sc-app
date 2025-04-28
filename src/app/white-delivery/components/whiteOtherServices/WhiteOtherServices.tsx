@@ -42,6 +42,9 @@ const WhiteOtherServices = () => {
 						<p className={styles.cardText}>{item.text}</p>
 					</div>
 				))}
+				<p className={styles.consultationGrid}>
+					Получите <span>консультацию</span> по всем услугам!
+				</p>
 				<div className={styles.sticker}>
 					<Link target='blank' href={'https://sellff.ru/'}>
 						<Image
