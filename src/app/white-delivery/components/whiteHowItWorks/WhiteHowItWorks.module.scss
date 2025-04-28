@@ -429,20 +429,20 @@
 		.botSign1 {
 			font-size: 10px;
 			line-height: 12px;
-
+			border-radius: 5px;
 			padding: 10px;
 		}
 		.botSign2 {
 			font-size: 10px;
 			line-height: 12px;
-
+			border-radius: 5px;
 			padding: 10px;
 		}
 		.botSign3 {
 			position: relative;
 			width: 178px;
 			height: 39px;
-			border-radius: 10px;
+			border-radius: 5px;
 			padding: 8px 10px;
 		}
 		.botSign3Text {
@@ -635,10 +635,5 @@
 		width: 100%;
 		height: 100%;
 		display: block;
-
-		rect {
-			rx: 15px;
-			ry: 15px;
-		}
 	}
 }
