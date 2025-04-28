@@ -50,18 +50,22 @@ const WhiteHowItWorks = () => {
 				</div>
 				<div className={styles.right}>
 					<div className={styles.top}>
-						<Image
-							width={365}
-							height={350}
-							alt='фото склада'
-							src={'/white-delivery/WhiteHowItWorksImg1.webp'}
-						/>
-						<Image
-							width={280}
-							height={350}
-							alt='фото офиса'
-							src={'/white-delivery/WhiteHowItWorksImg2.webp'}
-						/>
+						<div className={styles.photo1}>
+							<Image
+								width={365}
+								height={350}
+								alt='фото склада'
+								src={'/white-delivery/WhiteHowItWorksImg1.webp'}
+							/>
+						</div>
+						<div className={styles.photo2}>
+							<Image
+								width={280}
+								height={350}
+								alt='фото офиса'
+								src={'/white-delivery/WhiteHowItWorksImg2.webp'}
+							/>
+						</div>
 					</div>
 					<div className={styles.bot}>
 						<div className={styles.botLeft}>

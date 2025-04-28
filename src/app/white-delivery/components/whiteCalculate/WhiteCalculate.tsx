@@ -10,14 +10,18 @@ const WhiteCalculate = () => {
 				Узнайте, как доставить груз из Китая выгодно
 			</p>
 			<div className={styles.content}>
-				<Image
-					width={1208}
-					height={714}
-					alt=''
-					src={'/white-delivery/WhiteCalculate.svg'}
-					className={styles.img}
-				/>
-				<CalculateDelivery />
+				<div className={styles.imgContainer}>
+					<Image
+						width={1208}
+						height={714}
+						alt=''
+						src={'/white-delivery/WhiteCalculate.svg'}
+						className={styles.img}
+					/>
+				</div>
+				<div className={styles.calculateContainer}>
+					<CalculateDelivery />
+				</div>
 			</div>
 		</div>
 	)
