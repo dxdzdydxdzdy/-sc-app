@@ -16,7 +16,7 @@ const navItems = [
 			{ name: 'Карго перевозки', link: '/cargo-delivery' },
 			{ name: 'Белая доставка', link: '/white-delivery' },
 			{ name: 'Автозапчасти', link: '/' },
-			{ name: 'Спецлиния из Китая', link: '/' },
+			{ name: 'Спецлиния из Китая', link: '/special-line' },
 		],
 	},
 	{

@@ -1,0 +1,155 @@
+.container {
+	width: 1247px;
+	margin-bottom: 50px;
+
+	margin-top: 52px;
+	position: relative;
+
+	h2 {
+		font-size: 60px;
+		line-height: 73px;
+		margin-bottom: 13px;
+		font-weight: 600;
+		color: #353535;
+		text-transform: uppercase;
+	}
+}
+.subLabel {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #353535;
+	margin-bottom: 26px;
+	width: 480px;
+}
+.topText {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 26px;
+
+	color: #353535;
+}
+
+.accordion {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.accordionItem {
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.accordionInput {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+.accordionHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem;
+	background: #febd6d;
+	cursor: pointer;
+	transition: background 0.2s ease;
+
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+
+	color: #353535;
+
+	&:hover {
+		background: #fdac49;
+	}
+}
+
+.accordionIcon {
+	transform: rotateZ(45deg);
+	transition: transform 0.3s ease;
+}
+
+.accordionContent {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+	background-color: #eee;
+}
+
+.accordionList {
+	padding: 0 1.5rem;
+	list-style-type: none;
+
+	li {
+		font-size: 20px;
+		color: #353535;
+		padding: 0.5rem 0;
+		border-bottom: 1px solid #bbbbbb;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+}
+
+.accordionInput:checked {
+	+ .accordionHeader {
+		background: #febd6d;
+
+		.accordionIcon {
+			transform: rotate(90deg);
+		}
+		&:hover {
+			background: #fdac49;
+		}
+	}
+
+	~ .accordionContent {
+		max-height: 500px;
+		padding: 1rem 0;
+	}
+}
+
+.bottomContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.bottomContentImg {
+	transform: rotateY(180deg);
+}
+.bottomContentText {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+	width: 566px;
+	z-index: 2;
+
+	color: #353535;
+}
+.bottomContentLink {
+	width: 402px;
+	height: 58px;
+	background-color: #353535;
+	border-radius: 10px;
+
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+
+	color: #ffffff;
+	transition: all 0.3s ease;
+
+	&:hover {
+		opacity: 0.9;
+	}
+	&:active {
+		opacity: 0.8;
+	}
+}

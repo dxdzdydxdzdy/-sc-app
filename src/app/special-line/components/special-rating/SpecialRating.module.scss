@@ -1,0 +1,91 @@
+.container {
+	width: 1247px;
+	margin-bottom: 100px;
+
+	h2 {
+		font-weight: 600;
+		font-size: 60px;
+		line-height: 73px;
+		text-transform: uppercase;
+		margin-bottom: 31px;
+
+		color: #353535;
+	}
+}
+
+.subLabel {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 37px;
+
+	color: #353535;
+}
+
+.slider {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.slides {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.slide {
+	min-width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+	padding: 0 10px;
+}
+
+.reviewCard {
+	background: #febd6d;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: left;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+	h3 {
+		font-size: 30px;
+		font-weight: 600;
+		margin-bottom: 5px;
+	}
+}
+
+.status {
+	color: #424242;
+	font-size: 0.9rem;
+	margin-bottom: 15px;
+}
+
+.text {
+	font-style: italic;
+	line-height: 1.5;
+}
+
+.dots {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	gap: 10px;
+}
+
+.dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #febd6d;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	transition: all 0.3s ease;
+}
+
+.activeDot {
+	width: 30px;
+	border-radius: 15px;
+	background: #353535;
+}
