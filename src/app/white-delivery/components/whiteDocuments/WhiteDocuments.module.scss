@@ -148,7 +148,6 @@
 		}
 
 		.subLabel {
-			font-style: normal;
 			font-weight: 500;
 			font-size: 25px;
 			line-height: 30px;
@@ -225,22 +224,28 @@
 		}
 
 		.form {
-			column-gap: 19px;
+			column-gap: 18px;
 
 			input {
-				width: 243px;
+				width: 203px;
 				height: 61px;
 				border-radius: 10px;
-				padding: 21px 56px;
-				font-size: 15px;
+				padding: 21px 36px 21px 50px;
+				font-size: 12px;
+
+				&::placeholder {
+					font-size: 12px;
+					font-weight: 600;
+					color: #8e8e8e;
+				}
 			}
 			.phone {
-				left: 15px;
-				bottom: 17px;
+				left: 12px;
+				bottom: 15px;
 			}
 			button {
 				padding: 12px 24px;
-				font-size: 20px;
+				font-size: 12px;
 				border-radius: 10px;
 			}
 		}
@@ -317,6 +322,7 @@
 			row-gap: 20px;
 		}
 		.manager {
+			width: 120px;
 		}
 
 		.right1 {
