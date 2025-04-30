@@ -43,7 +43,7 @@ const SpecialHero = () => {
 					width={780}
 					height={308}
 					alt='Спецлинии'
-					src={'/special-line/SpecialHero.png'}
+					src={'/special-line/specialHero.png'}
 					className={styles.img}
 				/>
 			</div>
