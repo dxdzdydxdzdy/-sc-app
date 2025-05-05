@@ -1,5 +1,6 @@
 import AnyQuestion from '../components/shared/anyQuestion/AnyQuestion'
 import Socials from '../components/socials/Socials'
+import SpecialCycle from './components/special-cycle/SpecialCycle'
 import SpecialFullCycle from './components/special-full-cycle/SpecialFullCycle'
 import SpecialGoods from './components/special-goods/SpecialGoods'
 import SpecialHero from './components/special-hero/SpecialHero'
@@ -21,10 +22,10 @@ const page = () => {
 			</section>
 			{/* <section>
 				<SpecialCalculate />
-			</section>
+			</section> */}
 			<section>
 				<SpecialCycle />
-			</section> */}
+			</section>
 			<section>
 				<SpecialFullCycle />
 			</section>

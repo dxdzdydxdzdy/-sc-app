@@ -11,6 +11,90 @@
 
 		color: #353535;
 	}
+	@media (max-width: 1420px) {
+		width: 1000px;
+		margin-bottom: 20px;
+		padding: 0 30px;
+		h2 {
+			font-size: 50px;
+			line-height: 63px;
+			margin-bottom: 10px;
+		}
+	}
+	@media (max-width: 1000px) {
+		width: 660px;
+		margin-bottom: 20px;
+		padding: 0 30px;
+		h2 {
+			font-size: 33px;
+			line-height: 43px;
+			margin-bottom: 5px;
+		}
+		.subLabel {
+			font-size: 15px;
+			line-height: 20px;
+		}
+		.img {
+			width: 50px;
+		}
+		.subLabelSecond {
+			font-size: 15px;
+			line-height: 20px;
+			margin-bottom: 10px;
+		}
+		.list {
+			margin-bottom: 20px;
+			display: grid;
+			row-gap: 10px;
+			li {
+				font-size: 15px;
+				line-height: 20px;
+				padding-left: 50px;
+			}
+		}
+		.subLabelThird {
+			font-size: 15px;
+			line-height: 20px;
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		margin-bottom: 10px;
+		padding: 0 10px;
+		h2 {
+			font-size: 25px;
+			line-height: 30px;
+			margin-bottom: 5px;
+		}
+		.subLabel {
+			font-size: 12px;
+			line-height: 15px;
+			padding-top: 7px;
+			margin-bottom: 10px;
+		}
+		.img {
+			width: 40px;
+		}
+		.subLabelSecond {
+			font-size: 12px;
+			line-height: 15px;
+			margin-bottom: 10px;
+		}
+		.list {
+			margin-bottom: 20px;
+			display: grid;
+			row-gap: 10px;
+			li {
+				font-size: 12px;
+				line-height: 15px;
+				padding-left: 20px;
+			}
+		}
+		.subLabelThird {
+			font-size: 12px;
+			line-height: 15px;
+		}
+	}
 }
 
 .header {
