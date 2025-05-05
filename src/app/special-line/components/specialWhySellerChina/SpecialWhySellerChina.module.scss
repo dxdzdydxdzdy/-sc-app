@@ -2,7 +2,6 @@
 	width: 1247px;
 	margin-bottom: 50px;
 
-	margin-top: 52px;
 	position: relative;
 
 	h2 {
@@ -12,6 +11,225 @@
 		font-weight: 600;
 		color: #353535;
 		text-transform: uppercase;
+	}
+
+	@media (max-width: 1420px) {
+		width: 1000px;
+		margin-bottom: 100px;
+		padding: 0 30px;
+		h2 {
+			font-size: 50px;
+			line-height: 63px;
+			margin-bottom: 10px;
+		}
+		.grid {
+			gap: 21px 20px;
+			margin-bottom: 20px;
+		}
+
+		.card {
+			width: 450px;
+			padding-left: 15px;
+			padding-right: 10px;
+		}
+		.cardIcon {
+			margin-right: 15px;
+		}
+		.cardTitle {
+			font-size: 20px;
+			line-height: 24px;
+			width: 200px;
+		}
+		.cardSubLabel {
+			font-size: 13px;
+			line-height: 18px;
+			width: 240px;
+		}
+		.consultation {
+			width: 450px;
+		}
+	}
+	@media (max-width: 1000px) {
+		width: 660px;
+		margin-bottom: 50px;
+		padding: 0 30px;
+		h2 {
+			font-size: 33px;
+			line-height: 43px;
+			margin-bottom: 5px;
+		}
+		.subLabel {
+			font-size: 15px;
+		}
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 21px 40px;
+		}
+
+		.card {
+			width: 600px;
+			height: 90px;
+
+			background: #febd6d;
+			border-radius: 10px;
+
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			padding-left: 25px;
+		}
+		.cardIcon {
+			margin-right: 20px;
+		}
+		.cardTitle {
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 24px;
+			width: 200px;
+
+			color: #353535;
+		}
+		.cardSubLabel {
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 18px;
+			color: #353535;
+			width: 240px;
+
+			margin: auto;
+		}
+		.consultation {
+			width: 600px;
+			height: 90px;
+
+			background-color: #353535;
+			border-radius: 10px;
+
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 24px;
+
+			color: #ffffff;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: all 0.3s ease;
+
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+		.speech {
+			font-size: 15px;
+			line-height: 24px;
+
+			margin-left: 213px;
+			padding-top: 54px;
+			width: 341px;
+		}
+
+		.quotes {
+			font-weight: 900;
+			color: #febd6d;
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		margin-bottom: 30px;
+		padding: 0 10px;
+		h2 {
+			font-size: 25px;
+			line-height: 30px;
+			margin-bottom: 5px;
+		}
+		.subLabel {
+			font-size: 12px;
+			margin-bottom: 10px;
+		}
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 15px 40px;
+		}
+
+		.card {
+			width: 355px;
+			height: 70px;
+
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.cardIcon {
+			margin-right: 15px;
+		}
+		.cardTitle {
+			font-size: 15px;
+			line-height: 18px;
+			width: 180px;
+		}
+		.cardSubLabel {
+			font-size: 12px;
+			line-height: 14px;
+			width: 240px;
+
+			margin: auto;
+		}
+		.consultation {
+			width: 355px;
+			height: 70px;
+
+			font-size: 15px;
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+		.bottomContent {
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.speech {
+			font-size: 10px;
+			line-height: 13px;
+
+			margin-left: 143px;
+			padding-top: 17px;
+			width: 201px;
+		}
+		.textWrapper {
+			width: 355px;
+			height: 65px;
+			background-color: #febd6d;
+			border-radius: 10px;
+			display: flex;
+			align-items: center;
+			padding-left: 157px;
+		}
+
+		.text {
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 15px;
+
+			width: 290px;
+		}
+		.textWord {
+			font-weight: 700;
+			font-size: 12px;
+			line-height: 15px;
+			text-decoration-line: underline;
+
+			color: #353535;
+		}
+
+		.imgWrapper {
+			position: absolute;
+			bottom: 0;
+			width: 150px;
+		}
 	}
 }
 

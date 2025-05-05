@@ -1,4 +1,6 @@
+import Socials from '../components/socials/Socials'
 import SpecialHero from './components/special-hero/SpecialHero'
+import SpecialWhySellerChina from './components/specialWhySellerChina/SpecialWhySellerChina'
 
 const page = () => {
 	return (
@@ -6,10 +8,10 @@ const page = () => {
 			<section>
 				<SpecialHero />
 			</section>
-			{/* <section>
+			<section>
 				<SpecialWhySellerChina />
 			</section>
-			<section>
+			{/* <section>
 				<SpecialGoods />
 			</section>
 			<section>
@@ -29,10 +31,10 @@ const page = () => {
 			</section>
 			<section>
 				<SpecialRating />
-			</section>
+			</section> */}
 			<section>
 				<Socials />
-			</section> */}
+			</section>
 		</>
 	)
 }
