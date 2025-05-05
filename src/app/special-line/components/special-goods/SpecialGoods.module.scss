@@ -119,6 +119,23 @@
 				}
 			}
 		}
+		.accordionInput:checked {
+			+ .accordionHeader {
+				background: #febd6d;
+
+				.accordionIcon {
+					transform: rotate(90deg);
+				}
+				&:hover {
+					background: #febd6d;
+				}
+			}
+
+			~ .accordionContent {
+				max-height: 500px;
+				padding: 1rem 0;
+			}
+		}
 	}
 }
 .subLabel {
