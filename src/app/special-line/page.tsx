@@ -2,6 +2,7 @@ import AnyQuestion from '../components/shared/anyQuestion/AnyQuestion'
 import Socials from '../components/socials/Socials'
 import SpecialGoods from './components/special-goods/SpecialGoods'
 import SpecialHero from './components/special-hero/SpecialHero'
+import SpecialRating from './components/special-rating/SpecialRating'
 import SpecialWhySellerChina from './components/specialWhySellerChina/SpecialWhySellerChina'
 
 const page = () => {
@@ -31,9 +32,9 @@ const page = () => {
 			<section>
 				<AnyQuestion />
 			</section>
-			{/* <section>
+			<section>
 				<SpecialRating />
-			</section> */}
+			</section>
 			<section>
 				<Socials />
 			</section>

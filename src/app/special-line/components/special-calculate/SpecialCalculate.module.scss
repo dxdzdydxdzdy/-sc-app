@@ -2,7 +2,6 @@
 	width: 1247px;
 	margin-bottom: 50px;
 
-	margin-top: 52px;
 	position: relative;
 
 	h2 {
@@ -12,6 +11,15 @@
 		font-weight: 600;
 		color: #353535;
 		text-transform: uppercase;
+	}
+	@media (max-width: 1420px) {
+		width: 1000px;
+		margin-bottom: 100px;
+		padding: 0 30px;
+		h2 {
+			font-size: 50px;
+			line-height: 63px;
+		}
 	}
 }
 
