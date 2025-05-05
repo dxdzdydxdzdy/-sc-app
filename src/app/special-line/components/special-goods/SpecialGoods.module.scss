@@ -2,7 +2,6 @@
 	width: 1247px;
 	margin-bottom: 50px;
 
-	margin-top: 52px;
 	position: relative;
 
 	h2 {
@@ -12,6 +11,112 @@
 		font-weight: 600;
 		color: #353535;
 		text-transform: uppercase;
+	}
+	@media (max-width: 1420px) {
+		width: 1000px;
+		margin-bottom: 100px;
+		padding: 0 30px;
+		h2 {
+			font-size: 50px;
+			line-height: 63px;
+		}
+
+		.bottomContentText {
+			font-size: 20px;
+			line-height: 25px;
+			width: 230px;
+		}
+	}
+	@media (max-width: 1000px) {
+		width: 660px;
+		margin-bottom: 50px;
+		padding: 0 30px;
+		h2 {
+			font-size: 33px;
+			line-height: 43px;
+		}
+		.subLabel {
+			font-size: 18px;
+			margin-bottom: 30px;
+		}
+		.topText {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+
+		.bottomContentText {
+			font-size: 15px;
+			line-height: 25px;
+			width: 230px;
+		}
+		.bottomContentLink {
+			width: 202px;
+			height: 58px;
+			font-size: 15px;
+			line-height: 30px;
+		}
+		.bottomContentImg {
+			width: 100px;
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		margin-bottom: 25px;
+		padding: 0 10px;
+		h2 {
+			font-size: 25px;
+			line-height: 30px;
+		}
+		.subLabel {
+			font-size: 15px;
+			margin-bottom: 30px;
+			width: 100%;
+		}
+		.topText {
+			font-size: 15px;
+			margin-bottom: 20px;
+		}
+
+		.bottomContentText {
+			font-size: 10px;
+			line-height: 15px;
+			width: 130px;
+		}
+		.bottomContentLink {
+			width: 102px;
+			height: 40px;
+			font-size: 10px;
+			line-height: 30px;
+		}
+		.bottomContentImg {
+			width: 50px;
+		}
+
+		.accordionHeader {
+			padding: 1rem;
+
+			font-size: 15px;
+		}
+
+		.accordionIcon {
+			width: 20px;
+		}
+
+		.accordionList {
+			padding: 0 1.5rem;
+			list-style-type: none;
+
+			li {
+				font-size: 15px;
+				color: #353535;
+				padding: 0.3rem 0;
+				border-bottom: 1px solid #bbbbbb;
+
+				&:last-child {
+					border-bottom: none;
+				}
+			}
+		}
 	}
 }
 .subLabel {

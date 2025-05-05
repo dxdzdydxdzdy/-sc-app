@@ -25,9 +25,22 @@
 			line-height: 25px;
 		}
 	}
+	@media (max-width: 1420px) {
+		width: 940px;
+		height: fit-content;
+		flex-direction: column;
+		row-gap: 16px;
+		margin-bottom: 40px;
+		.input {
+			width: 100%;
+		}
+		.inputNum {
+			width: 100%;
+		}
+	}
 
-	@media (max-width: 1320px) {
-		width: 610px;
+	@media (max-width: 1000px) {
+		width: 600px;
 		height: fit-content;
 		flex-direction: column;
 		row-gap: 16px;
@@ -40,8 +53,8 @@
 		}
 	}
 	@media (max-width: 660px) {
-		width: 375px;
-		padding: 19px 15px;
+		width: 355px;
+		padding: 19px 10px;
 		.left {
 			h5 {
 				font-size: 20px;
