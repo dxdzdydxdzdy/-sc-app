@@ -94,8 +94,10 @@
 
 		.accordionHeader {
 			padding: 1rem;
-
 			font-size: 15px;
+			&:hover {
+				background: #febd6d;
+			}
 		}
 
 		.accordionIcon {
