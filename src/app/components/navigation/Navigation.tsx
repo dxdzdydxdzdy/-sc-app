@@ -16,8 +16,8 @@ const Navigation = () => {
 			navName: 'Услуги',
 			link: '/',
 			child: [
-				{ name: 'Выкуп 1688', link: '/' },
-				{ name: 'Выкуп из Китая', link: '/' },
+				{ name: 'Выкуп 1688', link: '/buyout-1688' },
+				{ name: 'Выкуп из Китая', link: '/buyout-china' },
 				{ name: 'Честный знак', link: '/' },
 			],
 		},
