@@ -67,7 +67,7 @@ const SpecialWhySellerChina = () => {
 				</div>
 				<div className={styles.imgWrapper}>
 					<Image
-						src={'/special-line/specialKhaoyan.webp'}
+						src={'/special-line/specialKhaoyan.png'}
 						alt='Директор в Китае Хаоян'
 						width={213}
 						height={299}
