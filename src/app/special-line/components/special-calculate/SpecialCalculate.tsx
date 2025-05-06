@@ -1,5 +1,5 @@
-import CalculateDelivery from '@/app/components/calculate-delivery/CalculateDelivery'
 import Image from 'next/image'
+import SpecialCalculateDelivery from '../special-calculator/SpecialCalculateDelivery'
 import styles from './SpecialCalculate.module.scss'
 
 const SpecialCalculate = () => {
@@ -15,6 +15,7 @@ const SpecialCalculate = () => {
 					alt=''
 					width={39}
 					height={41}
+					className={styles.img1}
 				/>
 				<p>
 					Хотите узнать, сколько будет стоить доставка вашего груза из Китая в
@@ -27,6 +28,7 @@ const SpecialCalculate = () => {
 					alt=''
 					width={65}
 					height={65}
+					className={styles.img2}
 				/>
 				<p>
 					Просто укажите <b>вес</b>, <b>объем</b> и <b>тип товара</b>, и мы
@@ -35,7 +37,7 @@ const SpecialCalculate = () => {
 				</p>
 			</div>
 			<div className={styles.bottomContent}>
-				<CalculateDelivery />
+				<SpecialCalculateDelivery />
 				<div className={styles.right}>
 					<p className={styles.speech}>
 						<span className={styles.quotes}>“</span>Не откладывайте —
