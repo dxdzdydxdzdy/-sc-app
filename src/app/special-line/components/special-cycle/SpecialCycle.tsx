@@ -10,7 +10,7 @@ const SpecialCycle = () => {
 					width={95}
 					height={95}
 					alt='like'
-					src={'/special-line/like.svg'}
+					src={'/special-line/like.webp'}
 					className={styles.img}
 				/>
 				<p className={styles.subLabel}>Решение для бизнеса любого масштаба</p>

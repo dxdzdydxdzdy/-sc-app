@@ -76,13 +76,13 @@ const SpecialGoods = () => {
 				))}
 			</div>
 			<div className={styles.bottomContent}>
-				<Image
+				{/* <Image
 					src={'/special-line/SpecialGoodsSearch.webp'}
 					alt='поиск'
 					width={161}
 					height={145}
 					className={styles.bottomContentImg}
-				/>
+				/> */}
 				<p className={styles.bottomContentText}>
 					Найдите свою нишу и начните доставку с SELLERCHINA уже сегодня!
 				</p>
