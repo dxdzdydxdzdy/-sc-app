@@ -1,5 +1,7 @@
+import styles from './BlankSpace.module.scss'
+
 const BlankSpace = () => {
-	return <div className='mb-30'></div>
+	return <div className={styles.container}></div>
 }
 
 export default BlankSpace

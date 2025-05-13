@@ -1,0 +1,9 @@
+.container {
+	margin-bottom: 150px;
+	@media (max-width: 1000px) {
+		margin-bottom: 100px;
+	}
+	@media (max-width: 660px) {
+		margin-bottom: 60px;
+	}
+}

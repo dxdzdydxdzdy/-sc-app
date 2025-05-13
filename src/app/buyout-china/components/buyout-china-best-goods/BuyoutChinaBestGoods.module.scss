@@ -15,6 +15,237 @@
 		text-transform: uppercase;
 		margin-bottom: 1px;
 	}
+
+	@media (max-width: 1420px) {
+		width: 1000px;
+		margin-bottom: 100px;
+		padding: 0 30px;
+		h2 {
+			font-size: 50px;
+			line-height: 63px;
+		}
+		.subLabel {
+			font-size: 20px;
+			line-height: 24px;
+		}
+		.content {
+			height: 470px;
+		}
+
+		.lunaContainer {
+			width: 603px;
+			height: 573px;
+			left: -90px;
+			top: 140px;
+		}
+		.imgContainer {
+			width: 543px;
+			height: 543px;
+		}
+
+		.lunaInfo {
+			top: 42%;
+			right: 80px;
+		}
+
+		.lunaName {
+			font-size: 25px;
+			line-height: 30px;
+			margin-bottom: 8px;
+		}
+		.lunaBtn {
+			font-size: 15px;
+			line-height: 18px;
+			padding: 8px 11px;
+		}
+		.lunaBot {
+			font-size: 20px;
+			line-height: 24px;
+			bottom: 100px;
+			right: 170px;
+		}
+
+		.serviceContainer {
+			row-gap: 40px;
+		}
+		.service {
+			padding: 18px 54px 12px 450px;
+		}
+		.serviceHeader {
+			font-size: 25px;
+			line-height: 30px;
+			margin-bottom: 4px;
+		}
+		.serviceText {
+			font-size: 20px;
+			line-height: 24px;
+			margin-bottom: 14px;
+		}
+		.link {
+			font-size: 20px;
+			line-height: 24px;
+		}
+	}
+	@media (max-width: 1000px) {
+		width: 660px;
+		margin-bottom: 100px;
+		padding: 0 30px;
+		h2 {
+			width: 100%;
+			font-size: 33px;
+			line-height: 43px;
+		}
+		.subLabel {
+			font-size: 18px;
+			margin-bottom: 50px;
+			br {
+				display: none;
+			}
+		}
+		.content {
+			height: 300px;
+		}
+
+		.lunaContainer {
+			z-index: -1;
+			width: 353px;
+			height: 403px;
+			position: relative;
+			position: absolute;
+			left: -90px;
+			top: 135px;
+		}
+		.imgContainer {
+			width: 400px;
+			height: 400px;
+		}
+		.img {
+			width: 200px;
+			height: 200px;
+		}
+
+		.lunaInfo {
+			top: 45%;
+			right: -30px;
+		}
+
+		.lunaName {
+			font-size: 18px;
+			line-height: 20px;
+			margin-bottom: 8px;
+		}
+		.lunaBtn {
+			font-size: 10px;
+			line-height: 16px;
+			padding: 8px 11px;
+		}
+		.lunaBot {
+			font-size: 14px;
+			line-height: 20px;
+			bottom: 50px;
+			right: 40px;
+			width: 200px;
+		}
+
+		.serviceContainer {
+			row-gap: 20px;
+		}
+		.service {
+			padding: 18px 18px 12px 300px;
+		}
+		.serviceHeader {
+			font-size: 16px;
+			line-height: 20px;
+			margin-bottom: 4px;
+		}
+		.serviceText {
+			font-size: 14px;
+			line-height: 18px;
+			margin-bottom: 8px;
+		}
+		.link {
+			font-size: 14px;
+			line-height: 18px;
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		margin-bottom: 20px;
+		padding: 0 10px;
+		h2 {
+			font-size: 22px;
+			line-height: 28px;
+			margin-bottom: 6px;
+		}
+		.subLabel {
+			font-size: 13px;
+			line-height: 15px;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+		.content {
+			height: 200px;
+		}
+
+		.lunaContainer {
+			width: 353px;
+			height: 403px;
+			left: -45px;
+			top: 107px;
+		}
+		.imgContainer {
+			width: 185px;
+			height: 185px;
+		}
+		.img {
+			width: 80px;
+			height: 80px;
+		}
+
+		.lunaInfo {
+			top: 75px;
+			right: 173px;
+		}
+
+		.lunaName {
+			font-size: 10px;
+			line-height: 10px;
+			margin-bottom: 0px;
+		}
+		.lunaBtn {
+			font-size: 6px;
+			line-height: 10px;
+			padding: 6px;
+		}
+		.lunaBot {
+			font-size: 7px;
+			line-height: 10px;
+			bottom: 245px;
+			right: 95px;
+			width: 200px;
+		}
+
+		.serviceContainer {
+			row-gap: 10px;
+		}
+		.service {
+			padding: 5px 5px 5px 135px;
+		}
+		.serviceHeader {
+			font-size: 10px;
+			line-height: 12px;
+			margin-bottom: 4px;
+		}
+		.serviceText {
+			font-size: 8px;
+			line-height: 10px;
+			margin-bottom: 0px;
+		}
+		.link {
+			font-size: 8px;
+			line-height: 10px;
+		}
+	}
 }
 .subLabel {
 	font-size: 20px;
