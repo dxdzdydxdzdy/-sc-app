@@ -1,0 +1,160 @@
+.container {
+	width: 1240px;
+	margin-bottom: 100px;
+	h2 {
+		font-weight: 600;
+		font-size: 50px;
+		line-height: 61px;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+
+		color: #353535;
+	}
+
+	.subLabel {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 15px;
+
+		color: #353535;
+	}
+	.subLabel2 {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 40px;
+
+		color: #353535;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		row-gap: 42px;
+	}
+	.card {
+		display: flex;
+		flex-direction: row;
+		column-gap: 36px;
+		align-items: center;
+		color: #353535;
+		position: relative;
+		h3 {
+			font-weight: 600;
+			font-size: 25px;
+		}
+
+		.position {
+			width: 260px;
+			font-size: 20px;
+			font-weight: 400;
+			line-height: 25px;
+			margin-bottom: 10px;
+			padding-left: 17px;
+
+			position: relative;
+			&::after {
+				content: '';
+				width: 8px;
+				border-radius: 4px;
+				background-color: #febd6d;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		}
+
+		.responsibleFor {
+			width: fit-content;
+			padding: 11px 13px;
+			border-radius: 10px;
+			font-size: 15px;
+			font-weight: 500;
+		}
+	}
+	.flag {
+		position: absolute;
+		top: 9px;
+		left: 231px;
+	}
+
+	@media (max-width: 1320px) {
+		width: 610px;
+		margin-bottom: 40px;
+		h2 {
+			font-size: 35px;
+		}
+
+		.grid {
+			row-gap: 30px;
+			display: flex;
+			flex-direction: column;
+		}
+		.card {
+			order: 0;
+		}
+		.card:nth-child(even) {
+			order: 2;
+		}
+		.card:nth-child(odd) {
+			order: 1;
+		}
+	}
+	@media (max-width: 660px) {
+		width: 375px;
+		margin-bottom: 40px;
+		h2 {
+			font-size: 23px;
+			margin-bottom: 21px;
+			line-height: 25px;
+		}
+
+		.card {
+			display: flex;
+			flex-direction: row;
+			column-gap: 12px;
+			align-items: center;
+			color: #353535;
+			position: relative;
+			h3 {
+				font-size: 16px;
+			}
+			.photo {
+				width: 198px;
+				height: 195px;
+			}
+
+			.position {
+				width: 160px;
+				font-size: 12px;
+				font-weight: 400;
+				line-height: 17px;
+				margin-bottom: 10px;
+				padding-left: 10px;
+
+				position: relative;
+				&::after {
+					content: '';
+					width: 5px;
+					border-radius: 4px;
+					height: 100%;
+					position: absolute;
+					left: 0;
+					top: 0;
+				}
+			}
+
+			.responsibleFor {
+				padding: 10px 10px;
+				font-size: 8px;
+			}
+		}
+		.flag {
+			position: absolute;
+			top: 7px;
+			left: 161px;
+			width: 30px;
+		}
+	}
+}

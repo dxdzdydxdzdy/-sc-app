@@ -1,0 +1,305 @@
+.container {
+	width: 1247px;
+	margin-bottom: 100px;
+	// * {
+	// 	border: 1px solid slateblue;
+	// }
+
+	h2 {
+		font-size: 60px;
+		line-height: 73px;
+
+		font-weight: 600;
+		color: #353535;
+		text-transform: uppercase;
+		margin-bottom: 1px;
+	}
+	@media (max-width: 1420px) {
+		width: 1000px;
+		margin-bottom: 100px;
+		padding: 0 30px;
+		h2 {
+			font-size: 50px;
+			line-height: 63px;
+		}
+		.grid {
+			column-gap: 20px;
+		}
+
+		.card {
+			height: 530px;
+			width: 300px;
+			padding: 20px 10px 0 15px;
+		}
+
+		.cardHeader {
+			font-size: 23px;
+			line-height: 30px;
+			margin-bottom: 80px;
+		}
+
+		.cardInfo {
+			font-size: 18px;
+			line-height: 22px;
+		}
+
+		.cardDiv {
+			padding: 10px 0 20px 20px;
+			width: 255px;
+			bottom: -15px;
+			left: 15px;
+		}
+
+		.divText {
+			font-size: 15px;
+			line-height: 18px;
+			margin-bottom: 13px;
+			width: 236px;
+		}
+		.btn {
+			font-size: 15px;
+			line-height: 18px;
+			width: 206px;
+			height: 40px;
+		}
+
+		.img1 {
+			top: 70px;
+			width: 250px;
+		}
+		.img2 {
+			right: 0;
+			bottom: 80px;
+		}
+		.img3 {
+			right: 0;
+			bottom: 80px;
+			z-index: 1;
+		}
+	}
+	@media (max-width: 1000px) {
+		width: 660px;
+		margin-bottom: 100px;
+		padding: 0 30px;
+		h2 {
+			font-size: 33px;
+			line-height: 43px;
+		}
+		.subLabel {
+			font-size: 18px;
+			margin-bottom: 30px;
+		}
+		.grid {
+			flex-direction: column;
+			align-items: center;
+			column-gap: 20px;
+			row-gap: 40px;
+		}
+		.card {
+			height: 430px;
+			width: 100%;
+			padding: 26px 20px 0 20px;
+		}
+
+		.cardHeader {
+			font-size: 25px;
+			line-height: 30px;
+			margin-bottom: 80px;
+		}
+
+		.cardInfo {
+			font-size: 20px;
+			line-height: 24px;
+		}
+
+		.cardDiv {
+			padding: 10px 0 20px 20px;
+			width: 345px;
+			bottom: -15px;
+			left: 15px;
+		}
+
+		.btn {
+			font-size: 15px;
+			line-height: 18px;
+			width: 206px;
+			height: 40px;
+		}
+
+		.img1 {
+			position: absolute;
+
+			top: 70px;
+		}
+		.img2 {
+			position: absolute;
+
+			right: 0;
+			bottom: 40px;
+		}
+	}
+	@media (max-width: 1420px) {
+		width: 375px;
+		margin-bottom: 25px;
+		padding: 0 10px;
+		h2 {
+			font-size: 25px;
+			line-height: 30px;
+		}
+		.subLabel {
+			font-size: 15px;
+			margin-bottom: 30px;
+			width: 100%;
+		}
+
+		.card {
+			height: 530px;
+			width: 100%;
+			padding: 20px 10px 0 15px;
+		}
+
+		.cardHeader {
+			font-size: 23px;
+			line-height: 30px;
+			margin-bottom: 80px;
+		}
+
+		.cardInfo {
+			font-size: 18px;
+			line-height: 22px;
+		}
+
+		.cardDiv {
+			padding: 10px 0 20px 20px;
+			width: 255px;
+			bottom: -15px;
+			left: 15px;
+		}
+
+		.divText {
+			font-size: 15px;
+			line-height: 18px;
+			margin-bottom: 13px;
+			width: 236px;
+		}
+		.btn {
+			font-size: 15px;
+			line-height: 18px;
+			width: 206px;
+			height: 40px;
+		}
+
+		.img1 {
+			top: 70px;
+			width: 250px;
+		}
+		.img2 {
+			right: 0;
+			bottom: 80px;
+		}
+		.img3 {
+			right: 0;
+			bottom: 80px;
+			z-index: 1;
+		}
+	}
+}
+
+.subLabel {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 37px;
+
+	font-weight: 500;
+	color: #353535;
+}
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	column-gap: 40px;
+}
+
+.card {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+	height: 530px;
+	width: 387px;
+	padding: 26px 20px 0 20px;
+}
+
+.cardHeader {
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 80px;
+
+	font-weight: 400;
+	color: #353535;
+}
+
+.cardInfo {
+	font-size: 20px;
+	line-height: 24px;
+
+	font-weight: 400;
+	color: #353535;
+}
+
+.cardDiv {
+	display: flex;
+	flex-direction: column;
+	background-color: #febd6d;
+	border-radius: 10px;
+	position: absolute;
+
+	padding: 10px 0 20px 20px;
+	width: 315px;
+	bottom: -15px;
+	left: 15px;
+}
+
+.divText {
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 13px;
+	width: 236px;
+
+	font-weight: 400;
+	color: #353535;
+}
+.btn {
+	font-size: 15px;
+	line-height: 18px;
+	width: 206px;
+	height: 40px;
+
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #353535;
+	border-radius: 10px;
+}
+
+.img1 {
+	position: absolute;
+
+	top: 70px;
+}
+.img2 {
+	position: absolute;
+
+	right: 0;
+	bottom: 80px;
+}
+.img3 {
+	position: absolute;
+
+	right: 0;
+	bottom: 80px;
+	z-index: 1;
+}

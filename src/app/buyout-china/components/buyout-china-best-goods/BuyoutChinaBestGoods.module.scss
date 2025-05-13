@@ -1,0 +1,122 @@
+.container {
+	width: 1247px;
+	margin-bottom: 100px;
+
+	position: relative;
+
+	h2 {
+		font-size: 60px;
+		line-height: 73px;
+		width: 900px;
+
+		z-index: 10;
+		font-weight: 600;
+		color: #353535;
+		text-transform: uppercase;
+		margin-bottom: 1px;
+	}
+}
+.subLabel {
+	font-size: 20px;
+	line-height: 24px;
+
+	z-index: 10;
+	font-weight: 500;
+	color: #353535;
+}
+.content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 470px;
+}
+
+.lunaContainer {
+	z-index: -1;
+	width: 643px;
+	height: 643px;
+	position: relative;
+	position: absolute;
+	left: -150px;
+	top: 100px;
+}
+.imgContainer {
+	width: 643px;
+	height: 643px;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+.lunaInfo {
+	position: absolute;
+	top: 45%;
+	right: 80px;
+}
+
+.lunaName {
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 8px;
+
+	font-weight: 600;
+	color: #353535;
+}
+.lunaBtn {
+	font-size: 15px;
+	line-height: 18px;
+	padding: 8px 11px;
+
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #353535;
+	border-radius: 10px;
+}
+.lunaBot {
+	font-size: 20px;
+	line-height: 24px;
+	position: absolute;
+	bottom: 100px;
+	right: 170px;
+
+	font-weight: 400;
+	color: #353535;
+}
+
+.serviceContainer {
+	display: flex;
+	flex-direction: column;
+	row-gap: 60px;
+}
+.service {
+	background-color: #febd6d;
+	border-radius: 10px;
+	padding: 18px 174px 12px 550px;
+	z-index: -2;
+}
+.serviceHeader {
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 4px;
+
+	font-weight: 800;
+	color: #353535;
+}
+.serviceText {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 14px;
+
+	color: #353535;
+	font-weight: 400;
+}
+.link {
+	font-size: 20px;
+	line-height: 24px;
+
+	font-weight: 600;
+	color: #353535;
+	text-decoration-line: underline;
+}
