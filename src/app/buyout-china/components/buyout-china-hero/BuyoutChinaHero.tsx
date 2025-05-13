@@ -10,7 +10,7 @@ const BuyoutChinaHero = () => {
 					width={555}
 					height={434}
 					alt=''
-					src={'/buyout-china/buyoutChinaHero.svg'}
+					src={'/buyout-china/buyoutChinaHero.webp'}
 					className={styles.img}
 				/>
 				<div className={styles.stickers}>
