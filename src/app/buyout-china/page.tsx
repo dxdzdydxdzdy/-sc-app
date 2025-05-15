@@ -7,6 +7,7 @@ import BuyoutChinaBestGoods from './components/buyout-china-best-goods/BuyoutChi
 import BuyoutChinaHero from './components/buyout-china-hero/BuyoutChinaHero'
 import BuyoutChinaHowWeWorks from './components/buyout-china-how-we-works/BuyoutChinaHowWeWorks'
 import BuyoutChinaServices from './components/buyout-china-services/BuyoutChinaServices'
+import BuyoutChinaTeam from './components/buyout-china-team/BuyoutChinaTeam'
 
 const page = () => {
 	return (
@@ -35,9 +36,9 @@ const page = () => {
 			<section>
 				<SpecialRating />
 			</section>
-			{/* <section>
+			<section>
 				<BuyoutChinaTeam />
-			</section> */}
+			</section>
 			<section>
 				<AnyQuestion />
 			</section>
