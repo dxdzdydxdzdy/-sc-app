@@ -4,7 +4,9 @@ import styles from './BuyoutChinaBuyout.module.scss'
 const BuyoutChinaBuyout = () => {
 	return (
 		<div className={styles.container}>
-			<h2>Выкуп товаров с популярных платформ Китая</h2>
+			<h2>
+				Выкуп товаров <br />с популярных платформ Китая
+			</h2>
 			<p className={styles.subLabel}>
 				Работаем с <strong>Alibaba, 1688, Taobao</strong> и напрямую с фабриками
 			</p>
@@ -15,6 +17,7 @@ const BuyoutChinaBuyout = () => {
 						height={105}
 						alt='Платформа'
 						src={'/buyout-china/buyoutChinaPlatform1.webp'}
+						className={styles.platformImg}
 					/>
 					<div className={styles.platformInfo}>
 						<h3 className={styles.platformName}>Alibaba</h3>
@@ -29,6 +32,7 @@ const BuyoutChinaBuyout = () => {
 						height={105}
 						alt='Платформа'
 						src={'/buyout-china/buyoutChinaPlatform2.webp'}
+						className={styles.platformImg}
 					/>
 					<div className={styles.platformInfo}>
 						<h3 className={styles.platformName}>1688</h3>
@@ -43,6 +47,7 @@ const BuyoutChinaBuyout = () => {
 						height={105}
 						alt='Платформа'
 						src={'/buyout-china/buyoutChinaPlatform3.webp'}
+						className={styles.platformImg}
 					/>
 					<div className={styles.platformInfo}>
 						<h3 className={styles.platformName}>Taobao</h3>
@@ -58,7 +63,6 @@ const BuyoutChinaBuyout = () => {
 					height={60}
 					alt='₽'
 					src={'/buyout-china/buyoutChinaRuble.svg'}
-					className={styles.bankImg}
 				/>
 				<div className={styles.paymentInfo}>
 					<p className={styles.paymentTop}>Удобная оплата в рублях</p>

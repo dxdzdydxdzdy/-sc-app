@@ -4,6 +4,7 @@ import Socials from '../components/socials/Socials'
 import SpecialRating from '../special-line/components/special-rating/SpecialRating'
 import BlankSpace from './components/blank/BlankSpace'
 import BuyoutChinaBestGoods from './components/buyout-china-best-goods/BuyoutChinaBestGoods'
+import BuyoutChinaBuyout from './components/buyout-china-buyout/BuyoutChinaBuyout'
 import BuyoutChinaHero from './components/buyout-china-hero/BuyoutChinaHero'
 import BuyoutChinaHowWeWorks from './components/buyout-china-how-we-works/BuyoutChinaHowWeWorks'
 import BuyoutChinaServices from './components/buyout-china-services/BuyoutChinaServices'
@@ -30,9 +31,9 @@ const page = () => {
 			<section>
 				<BuyoutChinaBestGoods />
 			</section>
-			{/* <section>
+			<section>
 				<BuyoutChinaBuyout />
-			</section> */}
+			</section>
 			<section>
 				<SpecialRating />
 			</section>
