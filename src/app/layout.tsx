@@ -41,6 +41,7 @@ export default function RootLayout({
 					property='og:image'
 					content='https://sc-app-mu.vercel.app/og-preview.png'
 				/>
+				<meta name='yandex-verification' content='97ce2e680ba0f245' />
 				<meta
 					property='og:title'
 					content='Доставка из Китая — быстро и просто'

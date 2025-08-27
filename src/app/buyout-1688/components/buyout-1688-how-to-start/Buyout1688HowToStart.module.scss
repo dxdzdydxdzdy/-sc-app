@@ -1,0 +1,433 @@
+.container {
+	width: 1247px;
+	margin-bottom: 100px;
+	position: relative;
+
+	h2 {
+		font-size: 50px;
+		line-height: 61px;
+		margin-bottom: 16px;
+
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #353535;
+	}
+}
+
+.subLabel {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 14px;
+
+	font-weight: 600;
+	color: #353535;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px 40px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: #febd6d;
+	border-radius: 10px;
+	padding: 22px 16px 17px 14px;
+}
+.top {
+	display: flex;
+	flex-direction: row;
+	column-gap: 12px;
+	margin-bottom: 15px;
+	align-items: center;
+}
+.icon {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+		width: 100%;
+		height: 100%;
+		display: block;
+
+		path {
+			fill: #353535;
+		}
+	}
+}
+.header {
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #353535;
+	font-weight: 600;
+}
+.subTitle {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 15px;
+
+	color: #353535;
+	font-weight: 400;
+}
+.btnDownload {
+	font-size: 20px;
+	line-height: 24px;
+	height: 48px;
+
+	background-color: #353535;
+	border-radius: 10px;
+	font-weight: 600;
+	color: #ffffff;
+}
+.btnSend {
+	font-size: 20px;
+	line-height: 24px;
+	height: 48px;
+
+	background-color: #353535;
+	border-radius: 10px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.card {
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+/* === CARD 1 === */
+.card:nth-child(1) {
+	animation-name: invertCard1;
+}
+.card:nth-child(1) .header,
+.card:nth-child(1) .subTitle {
+	animation: invertText1 10s ease-in-out infinite;
+}
+.card:nth-child(1) button {
+	animation: invertBtn1 10s ease-in-out infinite;
+}
+.card:nth-child(1) .icon path {
+	animation: invertIcon1 10s ease-in-out infinite;
+}
+@keyframes invertIcon1 {
+	0%,
+	30% {
+		fill: #353535;
+	}
+	15% {
+		fill: #fff;
+	}
+}
+@keyframes invertCard1 {
+	0%,
+	30% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+	15% {
+		background-color: #353535;
+		color: #fff;
+	}
+}
+@keyframes invertText1 {
+	0%,
+	30% {
+		color: #353535;
+	}
+	15% {
+		color: #fff;
+	}
+}
+@keyframes invertBtn1 {
+	0%,
+	30% {
+		background-color: #353535;
+		color: #fff;
+	}
+	15% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+}
+
+/* === CARD 2 === */
+.card:nth-child(2) {
+	animation-name: invertCard2;
+}
+.card:nth-child(2) .header,
+.card:nth-child(2) .subTitle {
+	animation: invertText2 10s ease-in-out infinite;
+}
+.card:nth-child(2) button {
+	animation: invertBtn2 10s ease-in-out infinite;
+}
+.card:nth-child(2) .icon path {
+	animation: invertIcon2 10s ease-in-out infinite;
+}
+@keyframes invertIcon2 {
+	15%,
+	45% {
+		fill: #353535;
+	}
+	30% {
+		fill: #fff;
+	}
+}
+@keyframes invertCard2 {
+	15%,
+	45% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+	30% {
+		background-color: #353535;
+		color: #fff;
+	}
+}
+@keyframes invertText2 {
+	15%,
+	45% {
+		color: #353535;
+	}
+	30% {
+		color: #fff;
+	}
+}
+@keyframes invertBtn2 {
+	15%,
+	45% {
+		background-color: #353535;
+		color: #fff;
+	}
+	30% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+}
+
+/* === CARD 3 === */
+.card:nth-child(3) {
+	animation-name: invertCard3;
+}
+.card:nth-child(3) .header,
+.card:nth-child(3) .subTitle {
+	animation: invertText3 10s ease-in-out infinite;
+}
+.card:nth-child(3) button {
+	animation: invertBtn3 10s ease-in-out infinite;
+}
+.card:nth-child(3) .icon path {
+	animation: invertIcon3 10s ease-in-out infinite;
+}
+@keyframes invertIcon3 {
+	30%,
+	60% {
+		fill: #353535;
+	}
+	45% {
+		fill: #fff;
+	}
+}
+@keyframes invertCard3 {
+	30%,
+	60% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+	45% {
+		background-color: #353535;
+		color: #fff;
+	}
+}
+@keyframes invertText3 {
+	30%,
+	60% {
+		color: #353535;
+	}
+	45% {
+		color: #fff;
+	}
+}
+@keyframes invertBtn3 {
+	30%,
+	60% {
+		background-color: #353535;
+		color: #fff;
+	}
+	45% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+}
+
+/* === CARD 4 === */
+.card:nth-child(4) {
+	animation-name: invertCard4;
+}
+.card:nth-child(4) .header,
+.card:nth-child(4) .subTitle {
+	animation: invertText4 10s ease-in-out infinite;
+}
+.card:nth-child(4) button {
+	animation: invertBtn4 10s ease-in-out infinite;
+}
+.card:nth-child(4) .icon path {
+	animation: invertIcon4 10s ease-in-out infinite;
+}
+@keyframes invertIcon4 {
+	45%,
+	75% {
+		fill: #353535;
+	}
+	60% {
+		fill: #fff;
+	}
+}
+@keyframes invertCard4 {
+	45%,
+	75% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+	60% {
+		background-color: #353535;
+		color: #fff;
+	}
+}
+@keyframes invertText4 {
+	45%,
+	75% {
+		color: #353535;
+	}
+	60% {
+		color: #fff;
+	}
+}
+@keyframes invertBtn4 {
+	45%,
+	75% {
+		background-color: #353535;
+		color: #fff;
+	}
+	60% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+}
+
+/* === CARD 5 === */
+.card:nth-child(5) {
+	animation-name: invertCard5;
+}
+.card:nth-child(5) .header,
+.card:nth-child(5) .subTitle {
+	animation: invertText5 10s ease-in-out infinite;
+}
+.card:nth-child(5) button {
+	animation: invertBtn5 10s ease-in-out infinite;
+}
+.card:nth-child(5) .icon path {
+	animation: invertIcon5 10s ease-in-out infinite;
+}
+@keyframes invertIcon5 {
+	60%,
+	90% {
+		fill: #353535;
+	}
+	75% {
+		fill: #fff;
+	}
+}
+@keyframes invertCard5 {
+	60%,
+	90% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+	75% {
+		background-color: #353535;
+		color: #fff;
+	}
+}
+@keyframes invertText5 {
+	60%,
+	90% {
+		color: #353535;
+	}
+	75% {
+		color: #fff;
+	}
+}
+@keyframes invertBtn5 {
+	60%,
+	90% {
+		background-color: #353535;
+		color: #fff;
+	}
+	75% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+}
+
+/* === CARD 6 === */
+.card:nth-child(6) {
+	animation-name: invertCard6;
+}
+.card:nth-child(6) .header,
+.card:nth-child(6) .subTitle {
+	animation: invertText6 10s ease-in-out infinite;
+}
+.card:nth-child(6) button {
+	animation: invertBtn6 10s ease-in-out infinite;
+}
+.card:nth-child(6) .icon path {
+	animation: invertIcon6 10s ease-in-out infinite;
+}
+@keyframes invertIcon6 {
+	75%,
+	100% {
+		fill: #353535;
+	}
+	90% {
+		fill: #fff;
+	}
+}
+@keyframes invertCard6 {
+	75%,
+	100% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+	90% {
+		background-color: #353535;
+		color: #fff;
+	}
+}
+@keyframes invertText6 {
+	75%,
+	100% {
+		color: #353535;
+	}
+	90% {
+		color: #fff;
+	}
+}
+@keyframes invertBtn6 {
+	75%,
+	100% {
+		background-color: #353535;
+		color: #fff;
+	}
+	90% {
+		background-color: #febd6d;
+		color: #353535;
+	}
+}

@@ -1,0 +1,107 @@
+.container {
+	width: 1247px;
+	margin-bottom: 100px;
+
+	h2 {
+		font-size: 50px;
+		line-height: 61px;
+
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #353535;
+	}
+}
+
+.subLabel {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 17px;
+
+	font-weight: 600;
+	color: #353535;
+}
+
+.cards {
+	display: flex;
+	flex-direction: row;
+	column-gap: 14px;
+	margin-bottom: 12px;
+}
+
+.card {
+	width: 50%;
+	row-gap: 15px;
+	padding: 13px 13px 17px 13px;
+
+	background-color: #febd6d;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.card3 {
+	width: 100%;
+	row-gap: 15px;
+	column-gap: 66px;
+	padding: 13px 37px 17px 13px;
+
+	background-color: #eee;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.cardTop {
+	display: flex;
+	flex-direction: row;
+	column-gap: 20px;
+}
+.cardInfo {
+	display: flex;
+	flex-direction: column;
+}
+.cardInfoHeader {
+	font-size: 20px;
+	line-height: 24px;
+
+	font-weight: 600;
+	color: #353535;
+}
+.cardInfoText {
+	font-size: 20px;
+	line-height: 24px;
+
+	font-weight: 400;
+	color: #353535;
+}
+.cardBot {
+	display: flex;
+	flex-direction: column;
+}
+.cardBotText {
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 7px;
+
+	font-weight: 600;
+	color: #353535;
+}
+.btn {
+	font-size: 20px;
+	line-height: 24px;
+	width: 298px;
+	height: 56px;
+
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #353535;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+
+	&:hover {
+		opacity: 0.9;
+	}
+	&:active {
+		opacity: 0.8;
+	}
+}
